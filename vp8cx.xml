@@ -1,0 +1,1071 @@
+<?xml version="1.0"?>
+<GCC_XML cvs_revision="1.135">
+  <Namespace id="_1" name="::" members="_3 _4 _5 _6 _8 _10 _12 _13 _14 _15 _16 _17 _18 _19 _20 _21 _22 _23 _24 _25 _26 _27 _28 _29 _30 _31 _32 _33 _34 _35 _36 _37 _38 _39 _41 _42 _43 _44 _46 _47 _49 _50 _51 _52 _53 _54 _55 _56 _58 _59 _60 _61 _45 _62 _63 _64 _66 _11 _67 _69 _70 _72 _73 _75 _76 _78 _79 _80 _81 _82 _83 _84 _85 _86 _87 _88 _89 _90 _91 _92 _93 _95 _96 _97 _99 _100 _101 _103 _104 _105 _106 _107 _108 _109 _110 _112 _113 _114 _115 _77 _116 _117 _118 _119 _120 _121 _122 _123 _124 _125 _126 _127 _128 _129 _130 _131 _132 _133 _134 _135 _137 _138 _139 _140 _141 _142 _143 _144 _145 _147 _148 _149 _150 _151 _152 _153 _154 _155 _156 _157 _158 _159 _160 _161 _162 _164 _98 _165 _166 _167 _168 _2 _170 _171 _172 _173 _174 _175 _176 _177 _178 _179 _180 _181 _182 _183 _163 _184 _185 _186 _187 _188 _190 _191 _193 _194 _195 _196 _197 _198 _199 _200 _201 _102 _202 _203 _204 _205 _206 _207 _208 _210 _211 _212 _213 _214 _215 _217 _218 _219 _220 _221 _222 _223 _224 _225 _226 _227 _228 _229 _7 _230 _189 _136 _231 _232 _233 _234 _235 _236 _237 _238 _239 _240 _57 _241 _242 _243 _244 _245 _246 _247 _248 _249 _250 _251 _252 _253 _254 _255 _256 _257 _258 _259 _71 _260 _94 _192 _261 _262 _263 _264 _265 _266 _169 _267 _268 _269 _270 _271 _272 " mangled="_Z2::" demangled="::"/>
+  <Namespace id="_2" name="std" context="_1" members="" mangled="_Z3std" demangled="std"/>
+  <Function id="_3" name="__builtin_nans" returns="_273" context="_1" location="f0:21" file="f0" line="21" extern="1" attributes="nothrow const nonnull">
+    <Argument name="str" type="_274" location="f0:21" file="f0" line="21"/>
+  </Function>
+  <Function id="_4" name="vpx_codec_version_extra_str" returns="_274" context="_1" location="f1:258" file="f1" line="258" extern="1"/>
+  <Function id="_5" name="__builtin_acosf" returns="_275" context="_1" mangled="acosf" location="f0:25" file="f0" line="25" extern="1" attributes="nothrow">
+    <Argument type="_275" location="f0:25" file="f0" line="25"/>
+  </Function>
+  <Function id="_6" name="__builtin_acosl" returns="_276" context="_1" mangled="acosl" location="f0:26" file="f0" line="26" extern="1" attributes="nothrow">
+    <Argument type="_276" location="f0:26" file="f0" line="26"/>
+  </Function>
+  <Struct id="_7" name="imaxdiv_t" context="_1" mangled="9imaxdiv_t" demangled="imaxdiv_t" location="f2:233" file="f2" line="233" size="128" align="64" members="_277 _278 _279 _280 _281 _282 " bases=""/>
+  <Function id="_8" name="__builtin_va_arg_pack" returns="_283" context="_1" location="f0:147" file="f0" line="147" extern="1">
+    <Ellipsis/>
+  </Function>
+  <FundamentalType id="_9" name="long long unsigned int" size="64" align="64"/>
+  <Typedef id="_10" name="uint_least64_t" type="_9" context="_1" location="f3:42" file="f3" line="42"/>
+  <Struct id="_11" name="vpx_image_rect" context="_1" mangled="14vpx_image_rect" demangled="vpx_image_rect" location="f4:145" file="f4" line="145" artificial="1" size="128" align="32" members="_284 _285 _286 _287 _288 _289 _290 _291 " bases=""/>
+  <Typedef id="_12" name="vpx_image_rect_t" type="_11" context="_1" location="f4:150" file="f4" line="150"/>
+  <Function id="_13" name="__builtin_log10" returns="_273" context="_1" mangled="log10" location="f0:63" file="f0" line="63" extern="1" attributes="nothrow">
+    <Argument type="_273" location="f0:63" file="f0" line="63"/>
+  </Function>
+  <Function id="_14" name="__builtin_popcountll" returns="_48" context="_1" location="f0:101" file="f0" line="101" extern="1" attributes="nothrow const">
+    <Argument type="_40" location="f0:101" file="f0" line="101"/>
+  </Function>
+  <Function id="_15" name="__builtin_clogf" returns="_292" context="_1" mangled="clogf" location="f0:111" file="f0" line="111" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_292" location="f0:111" file="f0" line="111"/>
+  </Function>
+  <Function id="_16" name="__builtin_clogl" returns="_293" context="_1" mangled="clogl" location="f0:113" file="f0" line="113" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_293" location="f0:113" file="f0" line="113"/>
+  </Function>
+  <Function id="_17" name="__builtin_cexpf" returns="_292" context="_1" mangled="cexpf" location="f0:108" file="f0" line="108" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_292" location="f0:108" file="f0" line="108"/>
+  </Function>
+  <Function id="_18" name="__builtin_cexpl" returns="_293" context="_1" mangled="cexpl" location="f0:110" file="f0" line="110" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_293" location="f0:110" file="f0" line="110"/>
+  </Function>
+  <Function id="_19" name="__builtin_isless" returns="_283" context="_1" location="f0:141" file="f0" line="141" extern="1" attributes="nothrow const">
+    <Ellipsis/>
+  </Function>
+  <Function id="_20" name="__builtin_isnormal" returns="_283" context="_1" location="f0:145" file="f0" line="145" extern="1">
+    <Ellipsis/>
+  </Function>
+  <Function id="_21" name="vpx_codec_control_VP8E_SET_TUNING" returns="_247" static="1" context="_1" location="f5:306" file="f5" line="306" endline="306" attributes="unused">
+    <Argument name="ctx" type="_294" location="f5:306" file="f5" line="306"/>
+    <Argument name="ctrl_id" type="_48" location="f5:306" file="f5" line="306"/>
+    <Argument name="data" type="_136" location="f5:306" file="f5" line="306"/>
+  </Function>
+  <Function id="_22" name="__builtin_asinf" returns="_275" context="_1" mangled="asinf" location="f0:28" file="f0" line="28" extern="1" attributes="nothrow">
+    <Argument type="_275" location="f0:28" file="f0" line="28"/>
+  </Function>
+  <Function id="_23" name="__builtin_asinl" returns="_276" context="_1" mangled="asinl" location="f0:29" file="f0" line="29" extern="1" attributes="nothrow">
+    <Argument type="_276" location="f0:29" file="f0" line="29"/>
+  </Function>
+  <Function id="_24" name="vpx_img_flip" returns="_295" context="_1" location="f4:230" file="f4" line="230" extern="1">
+    <Argument name="img" type="_296" location="f4:230" file="f4" line="230"/>
+  </Function>
+  <Function id="_25" name="__builtin_popcount" returns="_48" context="_1" location="f0:99" file="f0" line="99" extern="1" attributes="nothrow const">
+    <Argument type="_48" location="f0:99" file="f0" line="99"/>
+  </Function>
+  <Function id="_26" name="vpx_codec_control_VP8E_SET_SCALEMODE" returns="_247" static="1" context="_1" location="f5:294" file="f5" line="294" endline="294" attributes="unused">
+    <Argument name="ctx" type="_294" location="f5:294" file="f5" line="294"/>
+    <Argument name="ctrl_id" type="_48" location="f5:294" file="f5" line="294"/>
+    <Argument name="data" type="_297" location="f5:294" file="f5" line="294"/>
+  </Function>
+  <Function id="_27" name="vpx_codec_control_VP8E_UPD_REFERENCE" returns="_247" static="1" context="_1" location="f5:289" file="f5" line="289" endline="289" attributes="unused deprecated">
+    <Argument name="ctx" type="_294" location="f5:289" file="f5" line="289"/>
+    <Argument name="ctrl_id" type="_48" location="f5:289" file="f5" line="289"/>
+    <Argument name="data" type="_48" location="f5:289" file="f5" line="289"/>
+  </Function>
+  <Function id="_28" name="__builtin_nansf" returns="_275" context="_1" location="f0:22" file="f0" line="22" extern="1" attributes="nothrow const nonnull">
+    <Argument name="str" type="_274" location="f0:22" file="f0" line="22"/>
+  </Function>
+  <Function id="_29" name="__builtin_nansl" returns="_276" context="_1" location="f0:23" file="f0" line="23" extern="1" attributes="nothrow const nonnull">
+    <Argument name="str" type="_274" location="f0:23" file="f0" line="23"/>
+  </Function>
+  <Function id="_30" name="__builtin_floorf" returns="_275" context="_1" mangled="floorf" location="f0:52" file="f0" line="52" extern="1" attributes="nothrow const">
+    <Argument type="_275" location="f0:52" file="f0" line="52"/>
+  </Function>
+  <Function id="_31" name="__builtin_floorl" returns="_276" context="_1" mangled="floorl" location="f0:53" file="f0" line="53" extern="1" attributes="nothrow const">
+    <Argument type="_276" location="f0:53" file="f0" line="53"/>
+  </Function>
+  <Function id="_32" name="__builtin_ctanf" returns="_292" context="_1" mangled="ctanf" location="f0:123" file="f0" line="123" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_292" location="f0:123" file="f0" line="123"/>
+  </Function>
+  <Function id="_33" name="__builtin_ctanh" returns="_298" context="_1" mangled="ctanh" location="f0:127" file="f0" line="127" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_298" location="f0:127" file="f0" line="127"/>
+  </Function>
+  <Function id="_34" name="__builtin_ctanl" returns="_293" context="_1" mangled="ctanl" location="f0:125" file="f0" line="125" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_293" location="f0:125" file="f0" line="125"/>
+  </Function>
+  <Function id="_35" name="vpx_codec_err_to_string" returns="_274" context="_1" location="f1:290" file="f1" line="290" extern="1">
+    <Argument name="err" type="_247" location="f1:290" file="f1" line="290"/>
+  </Function>
+  <Function id="_36" name="__builtin_carg" returns="_273" context="_1" mangled="carg" location="f0:94" file="f0" line="94" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_298" location="f0:94" file="f0" line="94"/>
+  </Function>
+  <Function id="_37" name="__builtin_clog" returns="_298" context="_1" mangled="clog" location="f0:112" file="f0" line="112" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_298" location="f0:112" file="f0" line="112"/>
+  </Function>
+  <Function id="_38" name="__builtin_logf" returns="_275" context="_1" mangled="logf" location="f0:66" file="f0" line="66" extern="1" attributes="nothrow">
+    <Argument type="_275" location="f0:66" file="f0" line="66"/>
+  </Function>
+  <Function id="_39" name="__builtin_logl" returns="_276" context="_1" mangled="logl" location="f0:67" file="f0" line="67" extern="1" attributes="nothrow">
+    <Argument type="_276" location="f0:67" file="f0" line="67"/>
+  </Function>
+  <FundamentalType id="_40" name="long long int" size="64" align="64"/>
+  <Typedef id="_41" name="int_fast64_t" type="_40" context="_1" location="f3:49" file="f3" line="49"/>
+  <Function id="_42" name="__builtin_fabs" returns="_273" context="_1" mangled="fabs" location="f0:48" file="f0" line="48" extern="1" attributes="nothrow const">
+    <Argument type="_273" location="f0:48" file="f0" line="48"/>
+  </Function>
+  <Function id="_43" name="__builtin_expf" returns="_275" context="_1" mangled="expf" location="f0:46" file="f0" line="46" extern="1" attributes="nothrow">
+    <Argument type="_275" location="f0:46" file="f0" line="46"/>
+  </Function>
+  <Function id="_44" name="__builtin_expl" returns="_276" context="_1" mangled="expl" location="f0:47" file="f0" line="47" extern="1" attributes="nothrow">
+    <Argument type="_276" location="f0:47" file="f0" line="47"/>
+  </Function>
+  <Struct id="_45" name="vpx_codec_mmap" context="_1" mangled="14vpx_codec_mmap" demangled="vpx_codec_mmap" location="f1:477" file="f1" line="477" artificial="1" size="224" align="32" members="_299 _300 _301 _302 _303 _304 _305 _306 _307 _308 _309 " bases=""/>
+  <Typedef id="_46" name="vpx_codec_mmap_t" type="_45" context="_1" location="f1:493" file="f1" line="493"/>
+  <Function id="_47" name="__builtin_isunordered" returns="_283" context="_1" location="f0:146" file="f0" line="146" extern="1" attributes="nothrow const">
+    <Ellipsis/>
+  </Function>
+  <FundamentalType id="_48" name="int" size="32" align="32"/>
+  <Typedef id="_49" name="int_fast32_t" type="_48" context="_1" location="f3:48" file="f3" line="48"/>
+  <Function id="_50" name="__builtin_csqrt" returns="_298" context="_1" mangled="csqrt" location="f0:121" file="f0" line="121" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_298" location="f0:121" file="f0" line="121"/>
+  </Function>
+  <Function id="_51" name="__builtin_sin" returns="_273" context="_1" mangled="sin" location="f0:75" file="f0" line="75" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_273" location="f0:75" file="f0" line="75"/>
+  </Function>
+  <Function id="_52" name="__builtin_ldexpf" returns="_275" context="_1" mangled="ldexpf" location="f0:60" file="f0" line="60" extern="1" attributes="nothrow">
+    <Argument type="_275" location="f0:60" file="f0" line="60"/>
+    <Argument type="_48" location="f0:60" file="f0" line="60"/>
+  </Function>
+  <Function id="_53" name="__builtin_ldexpl" returns="_276" context="_1" mangled="ldexpl" location="f0:61" file="f0" line="61" extern="1" attributes="nothrow">
+    <Argument type="_276" location="f0:61" file="f0" line="61"/>
+    <Argument type="_48" location="f0:61" file="f0" line="61"/>
+  </Function>
+  <Function id="_54" name="__builtin_isinf_sign" returns="_283" context="_1" location="f0:140" file="f0" line="140" extern="1">
+    <Ellipsis/>
+  </Function>
+  <Function id="_55" name="__builtin_islessequal" returns="_283" context="_1" location="f0:142" file="f0" line="142" extern="1" attributes="nothrow const">
+    <Ellipsis/>
+  </Function>
+  <Function id="_56" name="strtoumax" returns="_196" context="_1" location="f2:238" file="f2" line="238" extern="1" attributes="__cdecl__">
+    <Argument type="_274" location="f2:238" file="f2" line="238"/>
+    <Argument type="_310" location="f2:238" file="f2" line="238"/>
+    <Argument type="_48" location="f2:238" file="f2" line="238"/>
+  </Function>
+  <Enumeration id="_57" name="vp8e_encoding_mode" context="_1" location="f5:247" file="f5" line="247" size="32" align="32">
+    <EnumValue name="VP8_BEST_QUALITY_ENCODING" init="0"/>
+    <EnumValue name="VP8_GOOD_QUALITY_ENCODING" init="1"/>
+    <EnumValue name="VP8_REAL_TIME_ENCODING" init="2"/>
+  </Enumeration>
+  <Function id="_58" name="vpx_codec_control_VP8_SET_POSTPROC" returns="_247" static="1" context="_1" location="f6:116" file="f6" line="116" endline="116" attributes="unused">
+    <Argument name="ctx" type="_294" location="f6:116" file="f6" line="116"/>
+    <Argument name="ctrl_id" type="_48" location="f6:116" file="f6" line="116"/>
+    <Argument name="data" type="_311" location="f6:116" file="f6" line="116"/>
+  </Function>
+  <Function id="_59" name="__builtin_tanf" returns="_275" context="_1" mangled="tanf" location="f0:85" file="f0" line="85" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_275" location="f0:85" file="f0" line="85"/>
+  </Function>
+  <Function id="_60" name="__builtin_tanh" returns="_273" context="_1" mangled="tanh" location="f0:86" file="f0" line="86" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_273" location="f0:86" file="f0" line="86"/>
+  </Function>
+  <Function id="_61" name="__builtin_tanl" returns="_276" context="_1" mangled="tanl" location="f0:89" file="f0" line="89" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_276" location="f0:89" file="f0" line="89"/>
+  </Function>
+  <Function id="_62" name="__builtin_ceil" returns="_273" context="_1" mangled="ceil" location="f0:36" file="f0" line="36" extern="1" attributes="nothrow const">
+    <Argument type="_273" location="f0:36" file="f0" line="36"/>
+  </Function>
+  <Function id="_63" name="__builtin_fmodf" returns="_275" context="_1" mangled="fmodf" location="f0:54" file="f0" line="54" extern="1" attributes="nothrow">
+    <Argument type="_275" location="f0:54" file="f0" line="54"/>
+    <Argument type="_275" location="f0:54" file="f0" line="54"/>
+  </Function>
+  <Function id="_64" name="__builtin_fmodl" returns="_276" context="_1" mangled="fmodl" location="f0:55" file="f0" line="55" extern="1" attributes="nothrow">
+    <Argument type="_276" location="f0:55" file="f0" line="55"/>
+    <Argument type="_276" location="f0:55" file="f0" line="55"/>
+  </Function>
+  <PointerType id="_65" type="_295c" size="32" align="32"/>
+  <Typedef id="_66" name="vpx_codec_iter_t" type="_65" context="_1" location="f1:182" file="f1" line="182"/>
+  <Enumeration id="_67" name="vp8e_enc_control_id" context="_1" location="f5:124" file="f5" line="124" artificial="1" size="32" align="32">
+    <EnumValue name="VP8E_UPD_ENTROPY" init="5"/>
+    <EnumValue name="VP8E_UPD_REFERENCE" init="6"/>
+    <EnumValue name="VP8E_USE_REFERENCE" init="7"/>
+    <EnumValue name="VP8E_SET_ROI_MAP" init="8"/>
+    <EnumValue name="VP8E_SET_ACTIVEMAP" init="9"/>
+    <EnumValue name="VP8E_SET_SCALEMODE" init="11"/>
+    <EnumValue name="VP8E_SET_CPUUSED" init="13"/>
+    <EnumValue name="VP8E_SET_ENABLEAUTOALTREF" init="14"/>
+    <EnumValue name="VP8E_SET_NOISE_SENSITIVITY" init="15"/>
+    <EnumValue name="VP8E_SET_SHARPNESS" init="16"/>
+    <EnumValue name="VP8E_SET_STATIC_THRESHOLD" init="17"/>
+    <EnumValue name="VP8E_SET_TOKEN_PARTITIONS" init="18"/>
+    <EnumValue name="VP8E_GET_LAST_QUANTIZER" init="19"/>
+    <EnumValue name="VP8E_GET_LAST_QUANTIZER_64" init="20"/>
+    <EnumValue name="VP8E_SET_ARNR_MAXFRAMES" init="21"/>
+    <EnumValue name="VP8E_SET_ARNR_STRENGTH" init="22"/>
+    <EnumValue name="VP8E_SET_ARNR_TYPE" init="23"/>
+    <EnumValue name="VP8E_SET_TUNING" init="24"/>
+    <EnumValue name="VP8E_SET_CQ_LEVEL" init="25"/>
+    <EnumValue name="VP8E_SET_MAX_INTRA_BITRATE_PCT" init="26"/>
+  </Enumeration>
+  <FundamentalType id="_68" name="signed char" size="8" align="8"/>
+  <Typedef id="_69" name="int_least8_t" type="_68" context="_1" location="f3:34" file="f3" line="34"/>
+  <Struct id="_70" name="vpx_codec_dec_cfg" context="_1" incomplete="1" mangled="17vpx_codec_dec_cfg" demangled="vpx_codec_dec_cfg" location="f1:202" file="f1" line="202" artificial="1" align="8"/>
+  <Struct id="_71" name="vpx_codec_ctx" context="_1" mangled="13vpx_codec_ctx" demangled="vpx_codec_ctx" location="f1:194" file="f1" line="194" artificial="1" size="224" align="32" members="_313 _314 _315 _316 _317 _318 _319 _320 _321 _322 _323 _324 " bases=""/>
+  <Typedef id="_72" name="vpx_codec_ctx_t" type="_71" context="_1" location="f1:207" file="f1" line="207"/>
+  <Enumeration id="_73" name="vpx_ref_frame_type" context="_1" location="f6:90" file="f6" line="90" artificial="1" size="32" align="32">
+    <EnumValue name="VP8_LAST_FRAME" init="1"/>
+    <EnumValue name="VP8_GOLD_FRAME" init="2"/>
+    <EnumValue name="VP8_ALTR_FRAME" init="4"/>
+  </Enumeration>
+  <FundamentalType id="_74" name="long int" size="32" align="32"/>
+  <Typedef id="_75" name="vpx_codec_flags_t" type="_74" context="_1" location="f1:158" file="f1" line="158"/>
+  <Function id="_76" name="__builtin_return" returns="_295" context="_1" location="f0:13" file="f0" line="13" extern="1" attributes="nothrow noreturn">
+    <Argument name="RESULT" type="_325" location="f0:13" file="f0" line="13"/>
+  </Function>
+  <Struct id="_77" name="vpx_image" context="_1" mangled="9vpx_image" demangled="vpx_image" location="f4:98" file="f4" line="98" artificial="1" size="640" align="32" members="_326 _327 _328 _329 _330 _331 _332 _333 _334 _335 _336 _337 _338 _339 _340 _341 _342 _343 " bases=""/>
+  <Typedef id="_78" name="vpx_image_t" type="_77" context="_1" location="f4:141" file="f4" line="141"/>
+  <Function id="_79" name="vpx_codec_error_detail" returns="_274" context="_1" location="f1:316" file="f1" line="316" extern="1">
+    <Argument name="ctx" type="_294" location="f1:316" file="f1" line="316"/>
+  </Function>
+  <Typedef id="_80" name="vpx_codec_caps_t" type="_74" context="_1" location="f1:145" file="f1" line="145"/>
+  <Function id="_81" name="__builtin_sqrt" returns="_273" context="_1" mangled="sqrt" location="f0:81" file="f0" line="81" extern="1" attributes="nothrow">
+    <Argument type="_273" location="f0:81" file="f0" line="81"/>
+  </Function>
+  <Function id="_82" name="__builtin_cpow" returns="_298" context="_1" mangled="cpow" location="f0:130" file="f0" line="130" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_298" location="f0:130" file="f0" line="130"/>
+    <Argument type="_298" location="f0:130" file="f0" line="130"/>
+  </Function>
+  <Function id="_83" name="vpx_codec_set_mem_map" returns="_247" context="_1" location="f1:545" file="f1" line="545" extern="1">
+    <Argument name="ctx" type="_294" location="f1:545" file="f1" line="545"/>
+    <Argument name="mmaps" type="_344" location="f1:545" file="f1" line="545"/>
+    <Argument name="num_maps" type="_111" location="f1:545" file="f1" line="545"/>
+  </Function>
+  <Function id="_84" name="__builtin_coshf" returns="_275" context="_1" mangled="coshf" location="f0:42" file="f0" line="42" extern="1" attributes="nothrow">
+    <Argument type="_275" location="f0:42" file="f0" line="42"/>
+  </Function>
+  <Function id="_85" name="__builtin_coshl" returns="_276" context="_1" mangled="coshl" location="f0:43" file="f0" line="43" extern="1" attributes="nothrow">
+    <Argument type="_276" location="f0:43" file="f0" line="43"/>
+  </Function>
+  <Typedef id="_86" name="int_least32_t" type="_48" context="_1" location="f3:36" file="f3" line="36"/>
+  <Function id="_87" name="__builtin_cexp" returns="_298" context="_1" mangled="cexp" location="f0:109" file="f0" line="109" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_298" location="f0:109" file="f0" line="109"/>
+  </Function>
+  <Enumeration id="_88" name="vpx_img_fmt" context="_1" location="f4:40" file="f4" line="40" artificial="1" size="32" align="32">
+    <EnumValue name="VPX_IMG_FMT_NONE" init="0"/>
+    <EnumValue name="VPX_IMG_FMT_RGB24" init="1"/>
+    <EnumValue name="VPX_IMG_FMT_RGB32" init="2"/>
+    <EnumValue name="VPX_IMG_FMT_RGB565" init="3"/>
+    <EnumValue name="VPX_IMG_FMT_RGB555" init="4"/>
+    <EnumValue name="VPX_IMG_FMT_UYVY" init="5"/>
+    <EnumValue name="VPX_IMG_FMT_YUY2" init="6"/>
+    <EnumValue name="VPX_IMG_FMT_YVYU" init="7"/>
+    <EnumValue name="VPX_IMG_FMT_BGR24" init="8"/>
+    <EnumValue name="VPX_IMG_FMT_RGB32_LE" init="9"/>
+    <EnumValue name="VPX_IMG_FMT_ARGB" init="10"/>
+    <EnumValue name="VPX_IMG_FMT_ARGB_LE" init="11"/>
+    <EnumValue name="VPX_IMG_FMT_RGB565_LE" init="12"/>
+    <EnumValue name="VPX_IMG_FMT_RGB555_LE" init="13"/>
+    <EnumValue name="VPX_IMG_FMT_YV12" init="769"/>
+    <EnumValue name="VPX_IMG_FMT_I420" init="258"/>
+    <EnumValue name="VPX_IMG_FMT_VPXYV12" init="771"/>
+    <EnumValue name="VPX_IMG_FMT_VPXI420" init="260"/>
+  </Enumeration>
+  <Function id="_89" name="__builtin_atan2" returns="_273" context="_1" mangled="atan2" location="f0:31" file="f0" line="31" extern="1" attributes="nothrow">
+    <Argument type="_273" location="f0:31" file="f0" line="31"/>
+    <Argument type="_273" location="f0:31" file="f0" line="31"/>
+  </Function>
+  <Function id="_90" name="__builtin_memchr" returns="_325" context="_1" location="f0:12" file="f0" line="12" extern="1">
+    <Argument type="_65" location="f0:12" file="f0" line="12"/>
+    <Argument type="_48" location="f0:12" file="f0" line="12"/>
+    <Argument type="_111" location="f0:12" file="f0" line="12"/>
+  </Function>
+  <Function id="_91" name="vpx_codec_get_caps" returns="_80" context="_1" location="f1:346" file="f1" line="346" extern="1">
+    <Argument name="iface" type="_345" location="f1:346" file="f1" line="346"/>
+  </Function>
+  <Function id="_92" name="__builtin_atanf" returns="_275" context="_1" mangled="atanf" location="f0:34" file="f0" line="34" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_275" location="f0:34" file="f0" line="34"/>
+  </Function>
+  <Function id="_93" name="__builtin_atanl" returns="_276" context="_1" mangled="atanl" location="f0:35" file="f0" line="35" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_276" location="f0:35" file="f0" line="35"/>
+  </Function>
+  <Struct id="_94" name="vp8_postproc_cfg" context="_1" mangled="16vp8_postproc_cfg" demangled="vp8_postproc_cfg" location="f6:80" file="f6" line="80" artificial="1" size="96" align="32" members="_346 _347 _348 _349 _350 _351 _352 " bases=""/>
+  <Typedef id="_95" name="vp8_postproc_cfg_t" type="_94" context="_1" location="f6:84" file="f6" line="84"/>
+  <Function id="_96" name="__builtin_ctan" returns="_298" context="_1" mangled="ctan" location="f0:124" file="f0" line="124" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_298" location="f0:124" file="f0" line="124"/>
+  </Function>
+  <Function id="_97" name="__builtin_log" returns="_273" context="_1" mangled="log" location="f0:62" file="f0" line="62" extern="1" attributes="nothrow">
+    <Argument type="_273" location="f0:62" file="f0" line="62"/>
+  </Function>
+  <Enumeration id="_98" name="vpx_scaling_mode_1d" context="_1" location="f5:187" file="f5" line="187" artificial="1" size="32" align="32">
+    <EnumValue name="VP8E_NORMAL" init="0"/>
+    <EnumValue name="VP8E_FOURFIVE" init="1"/>
+    <EnumValue name="VP8E_THREEFIVE" init="2"/>
+    <EnumValue name="VP8E_ONETWO" init="3"/>
+  </Enumeration>
+  <Typedef id="_99" name="VPX_SCALING_MODE" type="_98" context="_1" location="f5:193" file="f5" line="193"/>
+  <Function id="_100" name="vpx_codec_control_VP8E_SET_ARNR_TYPE" returns="_247" static="1" context="_1" location="f5:305" file="f5" line="305" endline="305" attributes="unused">
+    <Argument name="ctx" type="_294" location="f5:305" file="f5" line="305"/>
+    <Argument name="ctrl_id" type="_48" location="f5:305" file="f5" line="305"/>
+    <Argument name="data" type="_111" location="f5:305" file="f5" line="305"/>
+  </Function>
+  <Function id="_101" name="__builtin_isfinite" returns="_283" context="_1" location="f0:136" file="f0" line="136" extern="1">
+    <Ellipsis/>
+  </Function>
+  <Struct id="_102" name="vpx_roi_map" context="_1" mangled="11vpx_roi_map" demangled="vpx_roi_map" location="f5:203" file="f5" line="203" artificial="1" size="480" align="32" members="_353 _354 _355 _356 _357 _358 _359 _360 _361 _362 " bases=""/>
+  <Typedef id="_103" name="vpx_roi_map_t" type="_102" context="_1" location="f5:210" file="f5" line="210"/>
+  <Function id="_104" name="__builtin_asin" returns="_273" context="_1" mangled="asin" location="f0:27" file="f0" line="27" extern="1" attributes="nothrow">
+    <Argument type="_273" location="f0:27" file="f0" line="27"/>
+  </Function>
+  <Function id="_105" name="__builtin_frexp" returns="_273" context="_1" mangled="frexp" location="f0:56" file="f0" line="56" extern="1" attributes="nothrow">
+    <Argument type="_273" location="f0:56" file="f0" line="56"/>
+    <Argument type="_363" location="f0:56" file="f0" line="56"/>
+  </Function>
+  <Function id="_106" name="__builtin_isgreaterequal" returns="_283" context="_1" location="f0:138" file="f0" line="138" extern="1" attributes="nothrow const">
+    <Ellipsis/>
+  </Function>
+  <Function id="_107" name="vpx_img_free" returns="_295" context="_1" location="f4:238" file="f4" line="238" extern="1">
+    <Argument name="img" type="_296" location="f4:238" file="f4" line="238"/>
+  </Function>
+  <Function id="_108" name="vpx_codec_control_VP8_SET_DBG_DISPLAY_MV" returns="_247" static="1" context="_1" location="f6:120" file="f6" line="120" endline="120" attributes="unused">
+    <Argument name="ctx" type="_294" location="f6:120" file="f6" line="120"/>
+    <Argument name="ctrl_id" type="_48" location="f6:120" file="f6" line="120"/>
+    <Argument name="data" type="_48" location="f6:120" file="f6" line="120"/>
+  </Function>
+  <Function id="_109" name="vpx_codec_control_VP8E_UPD_ENTROPY" returns="_247" static="1" context="_1" location="f5:288" file="f5" line="288" endline="288" attributes="unused deprecated">
+    <Argument name="ctx" type="_294" location="f5:288" file="f5" line="288"/>
+    <Argument name="ctrl_id" type="_48" location="f5:288" file="f5" line="288"/>
+    <Argument name="data" type="_48" location="f5:288" file="f5" line="288"/>
+  </Function>
+  <Struct id="_110" name="vpx_ref_frame" context="_1" mangled="13vpx_ref_frame" demangled="vpx_ref_frame" location="f6:103" file="f6" line="103" artificial="1" size="672" align="32" members="_364 _365 _366 _367 _368 _369 " bases=""/>
+  <FundamentalType id="_111" name="unsigned int" size="32" align="32"/>
+  <Typedef id="_112" name="uint_fast16_t" type="_111" context="_1" location="f3:52" file="f3" line="52"/>
+  <Variable id="_113" name="vpx_codec_vp8_algo" type="_224" context="_1" location="f6:130" file="f6" line="130" extern="1" attributes="deprecated"/>
+  <Function id="_114" name="__builtin_log10f" returns="_275" context="_1" mangled="log10f" location="f0:64" file="f0" line="64" extern="1" attributes="nothrow">
+    <Argument type="_275" location="f0:64" file="f0" line="64"/>
+  </Function>
+  <Function id="_115" name="__builtin_log10l" returns="_276" context="_1" mangled="log10l" location="f0:65" file="f0" line="65" extern="1" attributes="nothrow">
+    <Argument type="_276" location="f0:65" file="f0" line="65"/>
+  </Function>
+  <Function id="_116" name="__builtin_ctzl" returns="_48" context="_1" location="f0:97" file="f0" line="97" extern="1" attributes="nothrow const">
+    <Argument type="_74" location="f0:97" file="f0" line="97"/>
+  </Function>
+  <Function id="_117" name="__builtin_powif" returns="_275" context="_1" location="f0:73" file="f0" line="73" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_275" location="f0:73" file="f0" line="73"/>
+    <Argument type="_48" location="f0:73" file="f0" line="73"/>
+  </Function>
+  <Function id="_118" name="__builtin_powil" returns="_276" context="_1" location="f0:74" file="f0" line="74" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_276" location="f0:74" file="f0" line="74"/>
+    <Argument type="_48" location="f0:74" file="f0" line="74"/>
+  </Function>
+  <Function id="_119" name="__builtin_modff" returns="_275" context="_1" mangled="modff" location="f0:68" file="f0" line="68" extern="1" attributes="nothrow">
+    <Argument type="_275" location="f0:68" file="f0" line="68"/>
+    <Argument type="_370" location="f0:68" file="f0" line="68"/>
+  </Function>
+  <Function id="_120" name="__builtin_exp" returns="_273" context="_1" mangled="exp" location="f0:45" file="f0" line="45" extern="1" attributes="nothrow">
+    <Argument type="_273" location="f0:45" file="f0" line="45"/>
+  </Function>
+  <Function id="_121" name="__builtin_modfl" returns="_276" context="_1" mangled="modfl" location="f0:69" file="f0" line="69" extern="1" attributes="nothrow">
+    <Argument type="_276" location="f0:69" file="f0" line="69"/>
+    <Argument type="_371" location="f0:69" file="f0" line="69"/>
+  </Function>
+  <Function id="_122" name="vpx_codec_build_config" returns="_274" context="_1" location="f1:267" file="f1" line="267" extern="1"/>
+  <Function id="_123" name="__builtin_prefetch" returns="_295" context="_1" location="f0:17" file="f0" line="17" extern="1" attributes="no vops">
+    <Argument name="ADDR" type="_65" location="f0:17" file="f0" line="17"/>
+    <Ellipsis/>
+  </Function>
+  <Function id="_124" name="vpx_codec_control_VP8_COPY_REFERENCE" returns="_247" static="1" context="_1" location="f6:115" file="f6" line="115" endline="115" attributes="unused">
+    <Argument name="ctx" type="_294" location="f6:115" file="f6" line="115"/>
+    <Argument name="ctrl_id" type="_48" location="f6:115" file="f6" line="115"/>
+    <Argument name="data" type="_372" location="f6:115" file="f6" line="115"/>
+  </Function>
+  <Function id="_125" name="__builtin_tan" returns="_273" context="_1" mangled="tan" location="f0:84" file="f0" line="84" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_273" location="f0:84" file="f0" line="84"/>
+  </Function>
+  <Function id="_126" name="__builtin_fabsf" returns="_275" context="_1" mangled="fabsf" location="f0:49" file="f0" line="49" extern="1" attributes="nothrow const">
+    <Argument type="_275" location="f0:49" file="f0" line="49"/>
+  </Function>
+  <Function id="_127" name="__builtin_fabsl" returns="_276" context="_1" mangled="fabsl" location="f0:50" file="f0" line="50" extern="1" attributes="nothrow const">
+    <Argument type="_276" location="f0:50" file="f0" line="50"/>
+  </Function>
+  <Typedef id="_128" name="uint32_t" type="_111" context="_1" location="f3:28" file="f3" line="28"/>
+  <Function id="_129" name="vpx_codec_control_VP8_SET_REFERENCE" returns="_247" static="1" context="_1" location="f6:114" file="f6" line="114" endline="114" attributes="unused">
+    <Argument name="ctx" type="_294" location="f6:114" file="f6" line="114"/>
+    <Argument name="ctrl_id" type="_48" location="f6:114" file="f6" line="114"/>
+    <Argument name="data" type="_372" location="f6:114" file="f6" line="114"/>
+  </Function>
+  <Typedef id="_130" name="uint_least32_t" type="_111" context="_1" location="f3:41" file="f3" line="41"/>
+  <Function id="_131" name="__builtin_inf" returns="_273" context="_1" location="f0:18" file="f0" line="18" extern="1" attributes="nothrow const"/>
+  <Namespace id="_132" name="__cxxabiv1" context="_1" members="" mangled="_Z10__cxxabiv1" demangled="__cxxabiv1"/>
+  <Function id="_133" name="vpx_codec_control_VP8_SET_DBG_COLOR_B_MODES" returns="_247" static="1" context="_1" location="f6:119" file="f6" line="119" endline="119" attributes="unused">
+    <Argument name="ctx" type="_294" location="f6:119" file="f6" line="119"/>
+    <Argument name="ctrl_id" type="_48" location="f6:119" file="f6" line="119"/>
+    <Argument name="data" type="_48" location="f6:119" file="f6" line="119"/>
+  </Function>
+  <Function id="_134" name="__builtin_frame_address" returns="_325" context="_1" location="f0:15" file="f0" line="15" extern="1">
+    <Argument name="LEVEL" type="_111" location="f0:15" file="f0" line="15"/>
+  </Function>
+  <Function id="_135" name="wcstoimax" returns="_212" context="_1" location="f2:239" file="f2" line="239" extern="1" attributes="__cdecl__">
+    <Argument type="_373" location="f2:239" file="f2" line="239"/>
+    <Argument type="_374" location="f2:239" file="f2" line="239"/>
+    <Argument type="_48" location="f2:239" file="f2" line="239"/>
+  </Function>
+  <Enumeration id="_136" name="vp8e_tuning" context="_1" location="f5:274" file="f5" line="274" size="32" align="32">
+    <EnumValue name="VP8_TUNE_PSNR" init="0"/>
+    <EnumValue name="VP8_TUNE_SSIM" init="1"/>
+  </Enumeration>
+  <Function id="_137" name="__builtin_cabs" returns="_273" context="_1" mangled="cabs" location="f0:91" file="f0" line="91" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_298" location="f0:91" file="f0" line="91"/>
+  </Function>
+  <Struct id="_138" name="vpx_codec_iface" context="_1" incomplete="1" mangled="15vpx_codec_iface" demangled="vpx_codec_iface" location="f1:167" file="f1" line="167" artificial="1" align="8"/>
+  <Function id="_139" name="__builtin_atan2f" returns="_275" context="_1" mangled="atan2f" location="f0:32" file="f0" line="32" extern="1" attributes="nothrow">
+    <Argument type="_275" location="f0:32" file="f0" line="32"/>
+    <Argument type="_275" location="f0:32" file="f0" line="32"/>
+  </Function>
+  <Function id="_140" name="__builtin_atan2l" returns="_276" context="_1" mangled="atan2l" location="f0:33" file="f0" line="33" extern="1" attributes="nothrow">
+    <Argument type="_276" location="f0:33" file="f0" line="33"/>
+    <Argument type="_276" location="f0:33" file="f0" line="33"/>
+  </Function>
+  <Function id="_141" name="vpx_codec_vp8_cx" returns="_345" context="_1" location="f5:34" file="f5" line="34" extern="1"/>
+  <Typedef id="_142" name="int_fast8_t" type="_68" context="_1" location="f3:46" file="f3" line="46"/>
+  <Function id="_143" name="__builtin_isinf" returns="_283" context="_1" mangled="isinf" location="f0:139" file="f0" line="139" extern="1" attributes="nothrow const">
+    <Ellipsis/>
+  </Function>
+  <Function id="_144" name="__builtin_fpclassify" returns="_283" context="_1" location="f0:135" file="f0" line="135" extern="1">
+    <Ellipsis/>
+  </Function>
+  <Function id="_145" name="vpx_codec_version" returns="_48" context="_1" location="f1:227" file="f1" line="227" extern="1"/>
+  <FundamentalType id="_146" name="short int" size="16" align="16"/>
+  <Typedef id="_147" name="int16_t" type="_146" context="_1" location="f3:19" file="f3" line="19"/>
+  <Typedef id="_148" name="int_fast16_t" type="_48" context="_1" location="f3:47" file="f3" line="47"/>
+  <Function id="_149" name="__builtin_ccoshf" returns="_292" context="_1" mangled="ccoshf" location="f0:105" file="f0" line="105" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_292" location="f0:105" file="f0" line="105"/>
+  </Function>
+  <Function id="_150" name="__builtin_ccoshl" returns="_293" context="_1" mangled="ccoshl" location="f0:107" file="f0" line="107" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_293" location="f0:107" file="f0" line="107"/>
+  </Function>
+  <Function id="_151" name="vpx_img_set_rect" returns="_48" context="_1" location="f4:220" file="f4" line="220" extern="1">
+    <Argument name="img" type="_296" location="f4:220" file="f4" line="220"/>
+    <Argument name="x" type="_111" location="f4:220" file="f4" line="220"/>
+    <Argument name="y" type="_111" location="f4:220" file="f4" line="220"/>
+    <Argument name="w" type="_111" location="f4:220" file="f4" line="220"/>
+    <Argument name="h" type="_111" location="f4:220" file="f4" line="220"/>
+  </Function>
+  <Typedef id="_152" name="ptrdiff_t" type="_48" context="_1" location="f7:149" file="f7" line="149"/>
+  <Function id="_153" name="__builtin_atan" returns="_273" context="_1" mangled="atan" location="f0:30" file="f0" line="30" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_273" location="f0:30" file="f0" line="30"/>
+  </Function>
+  <Function id="_154" name="__builtin_sinhf" returns="_275" context="_1" mangled="sinhf" location="f0:78" file="f0" line="78" extern="1" attributes="nothrow">
+    <Argument type="_275" location="f0:78" file="f0" line="78"/>
+  </Function>
+  <Function id="_155" name="__builtin_sinhl" returns="_276" context="_1" mangled="sinhl" location="f0:79" file="f0" line="79" extern="1" attributes="nothrow">
+    <Argument type="_276" location="f0:79" file="f0" line="79"/>
+  </Function>
+  <Function id="_156" name="__builtin_sqrtf" returns="_275" context="_1" mangled="sqrtf" location="f0:82" file="f0" line="82" extern="1" attributes="nothrow">
+    <Argument type="_275" location="f0:82" file="f0" line="82"/>
+  </Function>
+  <Function id="_157" name="__builtin_sqrtl" returns="_276" context="_1" mangled="sqrtl" location="f0:83" file="f0" line="83" extern="1" attributes="nothrow">
+    <Argument type="_276" location="f0:83" file="f0" line="83"/>
+  </Function>
+  <Function id="_158" name="__builtin_frexpf" returns="_275" context="_1" mangled="frexpf" location="f0:57" file="f0" line="57" extern="1" attributes="nothrow">
+    <Argument type="_275" location="f0:57" file="f0" line="57"/>
+    <Argument type="_363" location="f0:57" file="f0" line="57"/>
+  </Function>
+  <Function id="_159" name="__builtin_frexpl" returns="_276" context="_1" mangled="frexpl" location="f0:58" file="f0" line="58" extern="1" attributes="nothrow">
+    <Argument type="_276" location="f0:58" file="f0" line="58"/>
+    <Argument type="_363" location="f0:58" file="f0" line="58"/>
+  </Function>
+  <Function id="_160" name="__builtin_cpowf" returns="_292" context="_1" mangled="cpowf" location="f0:129" file="f0" line="129" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_292" location="f0:129" file="f0" line="129"/>
+    <Argument type="_292" location="f0:129" file="f0" line="129"/>
+  </Function>
+  <Function id="_161" name="__builtin_cpowl" returns="_293" context="_1" mangled="cpowl" location="f0:131" file="f0" line="131" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_293" location="f0:131" file="f0" line="131"/>
+    <Argument type="_293" location="f0:131" file="f0" line="131"/>
+  </Function>
+  <Struct id="_162" name="vpx_codec_enc_cfg" context="_1" incomplete="1" mangled="17vpx_codec_enc_cfg" demangled="vpx_codec_enc_cfg" location="f1:203" file="f1" line="203" artificial="1" align="8"/>
+  <Struct id="_163" name="vpx_codec_priv" context="_1" incomplete="1" mangled="14vpx_codec_priv" demangled="vpx_codec_priv" location="f1:175" file="f1" line="175" artificial="1" align="8"/>
+  <Typedef id="_164" name="vpx_codec_priv_t" type="_163" context="_1" location="f1:175" file="f1" line="175"/>
+  <Typedef id="_165" name="uint_fast64_t" type="_9" context="_1" location="f3:54" file="f3" line="54"/>
+  <Function id="_166" name="vpx_codec_get_mem_map" returns="_247" context="_1" location="f1:519" file="f1" line="519" extern="1">
+    <Argument name="ctx" type="_294" location="f1:519" file="f1" line="519"/>
+    <Argument name="mmap" type="_344" location="f1:519" file="f1" line="519"/>
+    <Argument name="iter" type="_375" location="f1:519" file="f1" line="519"/>
+  </Function>
+  <Function id="_167" name="vpx_codec_control_VP8E_SET_CQ_LEVEL" returns="_247" static="1" context="_1" location="f5:307" file="f5" line="307" endline="307" attributes="unused">
+    <Argument name="ctx" type="_294" location="f5:307" file="f5" line="307"/>
+    <Argument name="ctrl_id" type="_48" location="f5:307" file="f5" line="307"/>
+    <Argument name="data" type="_111" location="f5:307" file="f5" line="307"/>
+  </Function>
+  <Function id="_168" name="vpx_codec_control_VP8E_GET_LAST_QUANTIZER_64" returns="_247" static="1" context="_1" location="f5:310" file="f5" line="310" endline="310" attributes="unused">
+    <Argument name="ctx" type="_294" location="f5:310" file="f5" line="310"/>
+    <Argument name="ctrl_id" type="_48" location="f5:310" file="f5" line="310"/>
+    <Argument name="data" type="_363" location="f5:310" file="f5" line="310"/>
+  </Function>
+  <Struct id="_169" name="vpx_scaling_mode" context="_1" mangled="16vpx_scaling_mode" demangled="vpx_scaling_mode" location="f5:232" file="f5" line="232" artificial="1" size="64" align="32" members="_376 _377 _378 _379 _380 _381 " bases=""/>
+  <Typedef id="_170" name="vpx_scaling_mode_t" type="_169" context="_1" location="f5:235" file="f5" line="235"/>
+  <Function id="_171" name="__builtin_tanhf" returns="_275" context="_1" mangled="tanhf" location="f0:87" file="f0" line="87" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_275" location="f0:87" file="f0" line="87"/>
+  </Function>
+  <Function id="_172" name="__builtin_tanhl" returns="_276" context="_1" mangled="tanhl" location="f0:88" file="f0" line="88" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_276" location="f0:88" file="f0" line="88"/>
+  </Function>
+  <Function id="_173" name="__builtin_cabsf" returns="_275" context="_1" mangled="cabsf" location="f0:90" file="f0" line="90" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_292" location="f0:90" file="f0" line="90"/>
+  </Function>
+  <Function id="_174" name="__builtin_cabsl" returns="_276" context="_1" mangled="cabsl" location="f0:92" file="f0" line="92" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_293" location="f0:92" file="f0" line="92"/>
+  </Function>
+  <Typedef id="_175" name="int_least16_t" type="_146" context="_1" location="f3:35" file="f3" line="35"/>
+  <Function id="_176" name="__builtin_powf" returns="_275" context="_1" mangled="powf" location="f0:70" file="f0" line="70" extern="1" attributes="nothrow">
+    <Argument type="_275" location="f0:70" file="f0" line="70"/>
+    <Argument type="_275" location="f0:70" file="f0" line="70"/>
+  </Function>
+  <Function id="_177" name="__builtin_powi" returns="_273" context="_1" location="f0:72" file="f0" line="72" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_273" location="f0:72" file="f0" line="72"/>
+    <Argument type="_48" location="f0:72" file="f0" line="72"/>
+  </Function>
+  <Function id="_178" name="__builtin_powl" returns="_276" context="_1" mangled="powl" location="f0:71" file="f0" line="71" extern="1" attributes="nothrow">
+    <Argument type="_276" location="f0:71" file="f0" line="71"/>
+    <Argument type="_276" location="f0:71" file="f0" line="71"/>
+  </Function>
+  <Function id="_179" name="vpx_codec_control_VP8E_SET_ROI_MAP" returns="_247" static="1" context="_1" location="f5:292" file="f5" line="292" endline="292" attributes="unused">
+    <Argument name="ctx" type="_294" location="f5:292" file="f5" line="292"/>
+    <Argument name="ctrl_id" type="_48" location="f5:292" file="f5" line="292"/>
+    <Argument name="data" type="_382" location="f5:292" file="f5" line="292"/>
+  </Function>
+  <Function id="_180" name="vpx_codec_control_VP8E_SET_SHARPNESS" returns="_247" static="1" context="_1" location="f5:299" file="f5" line="299" endline="299" attributes="unused">
+    <Argument name="ctx" type="_294" location="f5:299" file="f5" line="299"/>
+    <Argument name="ctrl_id" type="_48" location="f5:299" file="f5" line="299"/>
+    <Argument name="data" type="_111" location="f5:299" file="f5" line="299"/>
+  </Function>
+  <Typedef id="_181" name="uintptr_t" type="_111" context="_1" location="f3:62" file="f3" line="62"/>
+  <Variable id="_182" name="vpx_codec_vp8_cx_algo" type="_224" context="_1" location="f5:33" file="f5" line="33" extern="1"/>
+  <Function id="_183" name="vpx_codec_control_VP8E_SET_NOISE_SENSITIVITY" returns="_247" static="1" context="_1" location="f5:298" file="f5" line="298" endline="298" attributes="unused">
+    <Argument name="ctx" type="_294" location="f5:298" file="f5" line="298"/>
+    <Argument name="ctrl_id" type="_48" location="f5:298" file="f5" line="298"/>
+    <Argument name="data" type="_111" location="f5:298" file="f5" line="298"/>
+  </Function>
+  <Function id="_184" name="__builtin_ccos" returns="_298" context="_1" mangled="ccos" location="f0:103" file="f0" line="103" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_298" location="f0:103" file="f0" line="103"/>
+  </Function>
+  <Typedef id="_185" name="intptr_t" type="_48" context="_1" location="f3:60" file="f3" line="60"/>
+  <Typedef id="_186" name="size_t" type="_111" context="_1" location="f7:211" file="f7" line="211"/>
+  <Function id="_187" name="vpx_codec_destroy" returns="_247" context="_1" location="f1:336" file="f1" line="336" extern="1">
+    <Argument name="ctx" type="_294" location="f1:336" file="f1" line="336"/>
+  </Function>
+  <Function id="_188" name="vpx_codec_control_VP8E_SET_STATIC_THRESHOLD" returns="_247" static="1" context="_1" location="f5:300" file="f5" line="300" endline="300" attributes="unused">
+    <Argument name="ctx" type="_294" location="f5:300" file="f5" line="300"/>
+    <Argument name="ctrl_id" type="_48" location="f5:300" file="f5" line="300"/>
+    <Argument name="data" type="_111" location="f5:300" file="f5" line="300"/>
+  </Function>
+  <Enumeration id="_189" name="vp8e_token_partitions" context="_1" location="f5:262" file="f5" line="262" size="32" align="32">
+    <EnumValue name="VP8_ONE_TOKENPARTITION" init="0"/>
+    <EnumValue name="VP8_TWO_TOKENPARTITION" init="1"/>
+    <EnumValue name="VP8_FOUR_TOKENPARTITION" init="2"/>
+    <EnumValue name="VP8_EIGHT_TOKENPARTITION" init="3"/>
+  </Enumeration>
+  <Function id="_190" name="__builtin_expect" returns="_74" context="_1" location="f0:16" file="f0" line="16" extern="1" attributes="nothrow const">
+    <Argument name="EXP" type="_74" location="f0:16" file="f0" line="16"/>
+    <Argument name="C" type="_74" location="f0:16" file="f0" line="16"/>
+  </Function>
+  <Function id="_191" name="vpx_codec_control_VP8E_SET_ARNR_STRENGTH" returns="_247" static="1" context="_1" location="f5:304" file="f5" line="304" endline="304" attributes="unused">
+    <Argument name="ctx" type="_294" location="f5:304" file="f5" line="304"/>
+    <Argument name="ctrl_id" type="_48" location="f5:304" file="f5" line="304"/>
+    <Argument name="data" type="_111" location="f5:304" file="f5" line="304"/>
+  </Function>
+  <Struct id="_192" name="vpx_active_map" context="_1" mangled="14vpx_active_map" demangled="vpx_active_map" location="f5:220" file="f5" line="220" artificial="1" size="96" align="32" members="_383 _384 _385 _386 _387 _388 _389 " bases=""/>
+  <Typedef id="_193" name="vpx_active_map_t" type="_192" context="_1" location="f5:224" file="f5" line="224"/>
+  <Function id="_194" name="vpx_codec_control_VP8E_SET_ARNR_MAXFRAMES" returns="_247" static="1" context="_1" location="f5:303" file="f5" line="303" endline="303" attributes="unused">
+    <Argument name="ctx" type="_294" location="f5:303" file="f5" line="303"/>
+    <Argument name="ctrl_id" type="_48" location="f5:303" file="f5" line="303"/>
+    <Argument name="data" type="_111" location="f5:303" file="f5" line="303"/>
+  </Function>
+  <Function id="_195" name="__builtin_popcountl" returns="_48" context="_1" location="f0:100" file="f0" line="100" extern="1" attributes="nothrow const">
+    <Argument type="_74" location="f0:100" file="f0" line="100"/>
+  </Function>
+  <Typedef id="_196" name="uintmax_t" type="_9" context="_1" location="f3:67" file="f3" line="67"/>
+  <Enumeration id="_197" name="vp8_postproc_level" context="_1" location="f6:59" file="f6" line="59" artificial="1" size="32" align="32">
+    <EnumValue name="VP8_NOFILTERING" init="0"/>
+    <EnumValue name="VP8_DEBLOCK" init="1"/>
+    <EnumValue name="VP8_DEMACROBLOCK" init="2"/>
+    <EnumValue name="VP8_ADDNOISE" init="4"/>
+    <EnumValue name="VP8_DEBUG_TXT_FRAME_INFO" init="8"/>
+    <EnumValue name="VP8_DEBUG_TXT_MBLK_MODES" init="16"/>
+    <EnumValue name="VP8_DEBUG_TXT_DC_DIFF" init="32"/>
+    <EnumValue name="VP8_DEBUG_TXT_RATE_INFO" init="64"/>
+    <EnumValue name="VP8_MFQE" init="1024"/>
+  </Enumeration>
+  <Typedef id="_198" name="vpx_ref_frame_type_t" type="_73" context="_1" location="f6:95" file="f6" line="95"/>
+  <Function id="_199" name="vpx_codec_control_VP8_SET_DBG_COLOR_REF_FRAME" returns="_247" static="1" context="_1" location="f6:117" file="f6" line="117" endline="117" attributes="unused">
+    <Argument name="ctx" type="_294" location="f6:117" file="f6" line="117"/>
+    <Argument name="ctrl_id" type="_48" location="f6:117" file="f6" line="117"/>
+    <Argument name="data" type="_48" location="f6:117" file="f6" line="117"/>
+  </Function>
+  <Function id="_200" name="vpx_codec_control_VP8E_SET_TOKEN_PARTITIONS" returns="_247" static="1" context="_1" location="f5:301" file="f5" line="301" endline="301" attributes="unused">
+    <Argument name="ctx" type="_294" location="f5:301" file="f5" line="301"/>
+    <Argument name="ctrl_id" type="_48" location="f5:301" file="f5" line="301"/>
+    <Argument name="data" type="_189" location="f5:301" file="f5" line="301"/>
+  </Function>
+  <Typedef id="_201" name="vpx_ref_frame_t" type="_110" context="_1" location="f6:106" file="f6" line="106"/>
+  <Function id="_202" name="wcstoumax" returns="_196" context="_1" location="f2:240" file="f2" line="240" extern="1" attributes="__cdecl__">
+    <Argument type="_373" location="f2:240" file="f2" line="240"/>
+    <Argument type="_374" location="f2:240" file="f2" line="240"/>
+    <Argument type="_48" location="f2:240" file="f2" line="240"/>
+  </Function>
+  <Typedef id="_203" name="int64_t" type="_40" context="_1" location="f3:21" file="f3" line="21"/>
+  <Typedef id="_204" name="int32_t" type="_48" context="_1" location="f3:20" file="f3" line="20"/>
+  <Function id="_205" name="vpx_codec_error" returns="_274" context="_1" location="f1:303" file="f1" line="303" extern="1">
+    <Argument name="ctx" type="_294" location="f1:303" file="f1" line="303"/>
+  </Function>
+  <Function id="_206" name="vpx_img_wrap" returns="_296" context="_1" location="f4:200" file="f4" line="200" extern="1">
+    <Argument name="img" type="_296" location="f4:200" file="f4" line="200"/>
+    <Argument name="fmt" type="_272" location="f4:200" file="f4" line="200"/>
+    <Argument name="d_w" type="_111" location="f4:200" file="f4" line="200"/>
+    <Argument name="d_h" type="_111" location="f4:200" file="f4" line="200"/>
+    <Argument name="align" type="_111" location="f4:200" file="f4" line="200"/>
+    <Argument name="img_data" type="_390" location="f4:200" file="f4" line="200"/>
+  </Function>
+  <Function id="_207" name="__builtin_inff" returns="_275" context="_1" location="f0:19" file="f0" line="19" extern="1" attributes="nothrow const"/>
+  <Function id="_208" name="__builtin_infl" returns="_276" context="_1" location="f0:20" file="f0" line="20" extern="1" attributes="nothrow const"/>
+  <FundamentalType id="_209" name="short unsigned int" size="16" align="16"/>
+  <Typedef id="_210" name="uint16_t" type="_209" context="_1" location="f3:25" file="f3" line="25"/>
+  <Function id="_211" name="vpx_codec_control_VP8E_GET_LAST_QUANTIZER" returns="_247" static="1" context="_1" location="f5:309" file="f5" line="309" endline="309" attributes="unused">
+    <Argument name="ctx" type="_294" location="f5:309" file="f5" line="309"/>
+    <Argument name="ctrl_id" type="_48" location="f5:309" file="f5" line="309"/>
+    <Argument name="data" type="_363" location="f5:309" file="f5" line="309"/>
+  </Function>
+  <Typedef id="_212" name="intmax_t" type="_40" context="_1" location="f3:66" file="f3" line="66"/>
+  <Function id="_213" name="vpx_codec_control_VP8E_USE_REFERENCE" returns="_247" static="1" context="_1" location="f5:290" file="f5" line="290" endline="290" attributes="unused deprecated">
+    <Argument name="ctx" type="_294" location="f5:290" file="f5" line="290"/>
+    <Argument name="ctrl_id" type="_48" location="f5:290" file="f5" line="290"/>
+    <Argument name="data" type="_48" location="f5:290" file="f5" line="290"/>
+  </Function>
+  <Function id="_214" name="vpx_codec_control_VP8E_SET_ENABLEAUTOALTREF" returns="_247" static="1" context="_1" location="f5:297" file="f5" line="297" endline="297" attributes="unused">
+    <Argument name="ctx" type="_294" location="f5:297" file="f5" line="297"/>
+    <Argument name="ctrl_id" type="_48" location="f5:297" file="f5" line="297"/>
+    <Argument name="data" type="_111" location="f5:297" file="f5" line="297"/>
+  </Function>
+  <Function id="_215" name="__builtin_cos" returns="_273" context="_1" mangled="cos" location="f0:39" file="f0" line="39" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_273" location="f0:39" file="f0" line="39"/>
+  </Function>
+  <FundamentalType id="_216" name="unsigned char" size="8" align="8"/>
+  <Typedef id="_217" name="uint_fast8_t" type="_216" context="_1" location="f3:51" file="f3" line="51"/>
+  <Function id="_218" name="imaxdiv" returns="_7" context="_1" location="f2:236" file="f2" line="236" extern="1" attributes="__cdecl__">
+    <Argument type="_212" location="f2:236" file="f2" line="236"/>
+    <Argument type="_212" location="f2:236" file="f2" line="236"/>
+  </Function>
+  <Typedef id="_219" name="uint_least16_t" type="_209" context="_1" location="f3:40" file="f3" line="40"/>
+  <Function id="_220" name="__builtin_ctz" returns="_48" context="_1" location="f0:96" file="f0" line="96" extern="1" attributes="nothrow const">
+    <Argument type="_48" location="f0:96" file="f0" line="96"/>
+  </Function>
+  <Function id="_221" name="__builtin_return_address" returns="_325" context="_1" location="f0:14" file="f0" line="14" extern="1">
+    <Argument name="LEVEL" type="_111" location="f0:14" file="f0" line="14"/>
+  </Function>
+  <Typedef id="_222" name="uint8_t" type="_216" context="_1" location="f3:24" file="f3" line="24"/>
+  <Function id="_223" name="__builtin_isnan" returns="_283" context="_1" mangled="isnan" location="f0:144" file="f0" line="144" extern="1" attributes="nothrow const">
+    <Ellipsis/>
+  </Function>
+  <Typedef id="_224" name="vpx_codec_iface_t" type="_138c" context="_1" location="f1:167" file="f1" line="167"/>
+  <Function id="_225" name="__builtin_csinhf" returns="_292" context="_1" mangled="csinhf" location="f0:117" file="f0" line="117" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_292" location="f0:117" file="f0" line="117"/>
+  </Function>
+  <Function id="_226" name="__builtin_csinhl" returns="_293" context="_1" mangled="csinhl" location="f0:119" file="f0" line="119" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_293" location="f0:119" file="f0" line="119"/>
+  </Function>
+  <Function id="_227" name="__builtin_csqrtf" returns="_292" context="_1" mangled="csqrtf" location="f0:120" file="f0" line="120" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_292" location="f0:120" file="f0" line="120"/>
+  </Function>
+  <Function id="_228" name="__builtin_csqrtl" returns="_293" context="_1" mangled="csqrtl" location="f0:122" file="f0" line="122" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_293" location="f0:122" file="f0" line="122"/>
+  </Function>
+  <Typedef id="_229" name="int_least64_t" type="_40" context="_1" location="f3:37" file="f3" line="37"/>
+  <Typedef id="_230" name="int8_t" type="_68" context="_1" location="f3:18" file="f3" line="18"/>
+  <Function id="_231" name="__builtin_floor" returns="_273" context="_1" mangled="floor" location="f0:51" file="f0" line="51" extern="1" attributes="nothrow const">
+    <Argument type="_273" location="f0:51" file="f0" line="51"/>
+  </Function>
+  <Function id="_232" name="__builtin_ldexp" returns="_273" context="_1" mangled="ldexp" location="f0:59" file="f0" line="59" extern="1" attributes="nothrow">
+    <Argument type="_273" location="f0:59" file="f0" line="59"/>
+    <Argument type="_48" location="f0:59" file="f0" line="59"/>
+  </Function>
+  <Function id="_233" name="vpx_codec_control_VP8E_SET_MAX_INTRA_BITRATE_PCT" returns="_247" static="1" context="_1" location="f5:312" file="f5" line="312" endline="312" attributes="unused">
+    <Argument name="ctx" type="_294" location="f5:312" file="f5" line="312"/>
+    <Argument name="ctrl_id" type="_48" location="f5:312" file="f5" line="312"/>
+    <Argument name="data" type="_111" location="f5:312" file="f5" line="312"/>
+  </Function>
+  <Function id="_234" name="strtoimax" returns="_212" context="_1" location="f2:237" file="f2" line="237" extern="1" attributes="__cdecl__">
+    <Argument type="_274" location="f2:237" file="f2" line="237"/>
+    <Argument type="_310" location="f2:237" file="f2" line="237"/>
+    <Argument type="_48" location="f2:237" file="f2" line="237"/>
+  </Function>
+  <Function id="_235" name="vpx_codec_control_VP8_SET_DBG_COLOR_MB_MODES" returns="_247" static="1" context="_1" location="f6:118" file="f6" line="118" endline="118" attributes="unused">
+    <Argument name="ctx" type="_294" location="f6:118" file="f6" line="118"/>
+    <Argument name="ctrl_id" type="_48" location="f6:118" file="f6" line="118"/>
+    <Argument name="data" type="_48" location="f6:118" file="f6" line="118"/>
+  </Function>
+  <Function id="_236" name="__builtin_ccosf" returns="_292" context="_1" mangled="ccosf" location="f0:102" file="f0" line="102" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_292" location="f0:102" file="f0" line="102"/>
+  </Function>
+  <Function id="_237" name="__builtin_ccosh" returns="_298" context="_1" mangled="ccosh" location="f0:106" file="f0" line="106" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_298" location="f0:106" file="f0" line="106"/>
+  </Function>
+  <Function id="_238" name="__builtin_ccosl" returns="_293" context="_1" mangled="ccosl" location="f0:104" file="f0" line="104" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_293" location="f0:104" file="f0" line="104"/>
+  </Function>
+  <Function id="_239" name="__builtin_va_arg_pack_len" returns="_48" context="_1" location="f0:148" file="f0" line="148" extern="1">
+    <Ellipsis/>
+  </Function>
+  <Function id="_240" name="__builtin_islessgreater" returns="_283" context="_1" location="f0:143" file="f0" line="143" extern="1" attributes="nothrow const">
+    <Ellipsis/>
+  </Function>
+  <Function id="_241" name="vpx_codec_version_str" returns="_274" context="_1" location="f1:249" file="f1" line="249" extern="1"/>
+  <Function id="_242" name="vpx_img_alloc" returns="_296" context="_1" location="f4:174" file="f4" line="174" extern="1">
+    <Argument name="img" type="_296" location="f4:174" file="f4" line="174"/>
+    <Argument name="fmt" type="_272" location="f4:174" file="f4" line="174"/>
+    <Argument name="d_w" type="_111" location="f4:174" file="f4" line="174"/>
+    <Argument name="d_h" type="_111" location="f4:174" file="f4" line="174"/>
+    <Argument name="align" type="_111" location="f4:174" file="f4" line="174"/>
+  </Function>
+  <Function id="_243" name="vpx_codec_control_VP8E_SET_CPUUSED" returns="_247" static="1" context="_1" location="f5:296" file="f5" line="296" endline="296" attributes="unused">
+    <Argument name="ctx" type="_294" location="f5:296" file="f5" line="296"/>
+    <Argument name="ctrl_id" type="_48" location="f5:296" file="f5" line="296"/>
+    <Argument name="data" type="_48" location="f5:296" file="f5" line="296"/>
+  </Function>
+  <Function id="_244" name="__builtin_ctanhf" returns="_292" context="_1" mangled="ctanhf" location="f0:126" file="f0" line="126" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_292" location="f0:126" file="f0" line="126"/>
+  </Function>
+  <Function id="_245" name="__builtin_ctanhl" returns="_293" context="_1" mangled="ctanhl" location="f0:128" file="f0" line="128" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_293" location="f0:128" file="f0" line="128"/>
+  </Function>
+  <Enumeration id="_246" name="vp8_com_control_id" context="_1" location="f6:42" file="f6" line="42" artificial="1" size="32" align="32">
+    <EnumValue name="VP8_SET_REFERENCE" init="1"/>
+    <EnumValue name="VP8_COPY_REFERENCE" init="2"/>
+    <EnumValue name="VP8_SET_POSTPROC" init="3"/>
+    <EnumValue name="VP8_SET_DBG_COLOR_REF_FRAME" init="4"/>
+    <EnumValue name="VP8_SET_DBG_COLOR_MB_MODES" init="5"/>
+    <EnumValue name="VP8_SET_DBG_COLOR_B_MODES" init="6"/>
+    <EnumValue name="VP8_SET_DBG_DISPLAY_MV" init="7"/>
+    <EnumValue name="VP8_COMMON_CTRL_ID_MAX" init="8"/>
+    <EnumValue name="VP8_DECODER_CTRL_ID_START" init="256"/>
+  </Enumeration>
+  <Enumeration id="_247" name="vpx_codec_err_t" context="_1" location="f1:134" file="f1" line="134" size="32" align="32">
+    <EnumValue name="VPX_CODEC_OK" init="0"/>
+    <EnumValue name="VPX_CODEC_ERROR" init="1"/>
+    <EnumValue name="VPX_CODEC_MEM_ERROR" init="2"/>
+    <EnumValue name="VPX_CODEC_ABI_MISMATCH" init="3"/>
+    <EnumValue name="VPX_CODEC_INCAPABLE" init="4"/>
+    <EnumValue name="VPX_CODEC_UNSUP_BITSTREAM" init="5"/>
+    <EnumValue name="VPX_CODEC_UNSUP_FEATURE" init="6"/>
+    <EnumValue name="VPX_CODEC_CORRUPT_FRAME" init="7"/>
+    <EnumValue name="VPX_CODEC_INVALID_PARAM" init="8"/>
+    <EnumValue name="VPX_CODEC_LIST_END" init="9"/>
+  </Enumeration>
+  <Function id="_248" name="__builtin_ceilf" returns="_275" context="_1" mangled="ceilf" location="f0:37" file="f0" line="37" extern="1" attributes="nothrow const">
+    <Argument type="_275" location="f0:37" file="f0" line="37"/>
+  </Function>
+  <Function id="_249" name="__builtin_ceill" returns="_276" context="_1" mangled="ceill" location="f0:38" file="f0" line="38" extern="1" attributes="nothrow const">
+    <Argument type="_276" location="f0:38" file="f0" line="38"/>
+  </Function>
+  <Function id="_250" name="vpx_codec_control_" returns="_247" context="_1" location="f1:375" file="f1" line="375" extern="1">
+    <Argument name="ctx" type="_294" location="f1:375" file="f1" line="375"/>
+    <Argument name="ctrl_id" type="_48" location="f1:375" file="f1" line="375"/>
+    <Ellipsis/>
+  </Function>
+  <Function id="_251" name="__builtin_csinf" returns="_292" context="_1" mangled="csinf" location="f0:114" file="f0" line="114" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_292" location="f0:114" file="f0" line="114"/>
+  </Function>
+  <Function id="_252" name="__builtin_csinh" returns="_298" context="_1" mangled="csinh" location="f0:118" file="f0" line="118" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_298" location="f0:118" file="f0" line="118"/>
+  </Function>
+  <Function id="_253" name="__builtin_csinl" returns="_293" context="_1" mangled="csinl" location="f0:116" file="f0" line="116" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_293" location="f0:116" file="f0" line="116"/>
+  </Function>
+  <Function id="_254" name="__builtin_acos" returns="_273" context="_1" mangled="acos" location="f0:24" file="f0" line="24" extern="1" attributes="nothrow">
+    <Argument type="_273" location="f0:24" file="f0" line="24"/>
+  </Function>
+  <Function id="_255" name="__builtin_ctzll" returns="_48" context="_1" location="f0:98" file="f0" line="98" extern="1" attributes="nothrow const">
+    <Argument type="_40" location="f0:98" file="f0" line="98"/>
+  </Function>
+  <Typedef id="_256" name="uint_fast32_t" type="_111" context="_1" location="f3:53" file="f3" line="53"/>
+  <Function id="_257" name="vpx_codec_control_VP8E_SET_ACTIVEMAP" returns="_247" static="1" context="_1" location="f5:293" file="f5" line="293" endline="293" attributes="unused">
+    <Argument name="ctx" type="_294" location="f5:293" file="f5" line="293"/>
+    <Argument name="ctrl_id" type="_48" location="f5:293" file="f5" line="293"/>
+    <Argument name="data" type="_392" location="f5:293" file="f5" line="293"/>
+  </Function>
+  <Function id="_258" name="__builtin_cargf" returns="_275" context="_1" mangled="cargf" location="f0:93" file="f0" line="93" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_292" location="f0:93" file="f0" line="93"/>
+  </Function>
+  <Function id="_259" name="__builtin_cargl" returns="_276" context="_1" mangled="cargl" location="f0:95" file="f0" line="95" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_293" location="f0:95" file="f0" line="95"/>
+  </Function>
+  <Function id="_260" name="imaxabs" returns="_212" context="_1" location="f2:235" file="f2" line="235" extern="1" attributes="nothrow const __cdecl__">
+    <Argument type="_212" location="f2:235" file="f2" line="235"/>
+  </Function>
+  <Function id="_261" name="__builtin_cosf" returns="_275" context="_1" mangled="cosf" location="f0:40" file="f0" line="40" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_275" location="f0:40" file="f0" line="40"/>
+  </Function>
+  <Function id="_262" name="__builtin_cosh" returns="_273" context="_1" mangled="cosh" location="f0:41" file="f0" line="41" extern="1" attributes="nothrow">
+    <Argument type="_273" location="f0:41" file="f0" line="41"/>
+  </Function>
+  <Function id="_263" name="__builtin_cosl" returns="_276" context="_1" mangled="cosl" location="f0:44" file="f0" line="44" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_276" location="f0:44" file="f0" line="44"/>
+  </Function>
+  <Function id="_264" name="__builtin_isgreater" returns="_283" context="_1" location="f0:137" file="f0" line="137" extern="1" attributes="nothrow const">
+    <Ellipsis/>
+  </Function>
+  <Typedef id="_265" name="uint_least8_t" type="_216" context="_1" location="f3:39" file="f3" line="39"/>
+  <Function id="_266" name="vpx_codec_iface_name" returns="_274" context="_1" location="f1:277" file="f1" line="277" extern="1">
+    <Argument name="iface" type="_345" location="f1:277" file="f1" line="277"/>
+  </Function>
+  <Function id="_267" name="__builtin_sinf" returns="_275" context="_1" mangled="sinf" location="f0:76" file="f0" line="76" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_275" location="f0:76" file="f0" line="76"/>
+  </Function>
+  <Function id="_268" name="__builtin_sinh" returns="_273" context="_1" mangled="sinh" location="f0:77" file="f0" line="77" extern="1" attributes="nothrow">
+    <Argument type="_273" location="f0:77" file="f0" line="77"/>
+  </Function>
+  <Function id="_269" name="__builtin_sinl" returns="_276" context="_1" mangled="sinl" location="f0:80" file="f0" line="80" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_276" location="f0:80" file="f0" line="80"/>
+  </Function>
+  <Typedef id="_270" name="uint64_t" type="_9" context="_1" location="f3:30" file="f3" line="30"/>
+  <Function id="_271" name="__builtin_csin" returns="_298" context="_1" mangled="csin" location="f0:115" file="f0" line="115" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_298" location="f0:115" file="f0" line="115"/>
+  </Function>
+  <Typedef id="_272" name="vpx_img_fmt_t" type="_88" context="_1" location="f4:60" file="f4" line="60"/>
+  <FundamentalType id="_273" name="double" size="64" align="64"/>
+  <PointerType id="_274" type="_393c" size="32" align="32"/>
+  <FundamentalType id="_275" name="float" size="32" align="32"/>
+  <FundamentalType id="_276" name="long double" size="96" align="32"/>
+  <Field id="_277" name="quot" type="_212" offset="0" context="_7" access="public" location="f2:231" file="f2" line="231"/>
+  <Field id="_278" name="rem" type="_212" offset="64" context="_7" access="public" location="f2:232" file="f2" line="232"/>
+  <Destructor id="_279" name="$_0" artificial="1" throw="" context="_7" access="public" mangled="_ZN9imaxdiv_tD1Ev *INTERNAL* " demangled="imaxdiv_t::~imaxdiv_t()" location="f2:233" file="f2" line="233" endline="233" inline="1">
+  </Destructor>
+  <OperatorMethod id="_280" name="=" returns="_395" artificial="1" throw="" context="_7" access="public" mangled="_ZN9imaxdiv_taSERKS_" demangled="imaxdiv_t::operator=(imaxdiv_t const&amp;)" location="f2:233" file="f2" line="233" endline="233" inline="1">
+    <Argument type="_396" location="f2:230" file="f2" line="230"/>
+  </OperatorMethod>
+  <Constructor id="_281" name="$_0" artificial="1" throw="" context="_7" access="public" mangled="_ZN9imaxdiv_tC1ERKS_ *INTERNAL* " demangled="imaxdiv_t::imaxdiv_t(imaxdiv_t const&amp;)" location="f2:233" file="f2" line="233" endline="233" inline="1">
+    <Argument type="_396" location="f2:230" file="f2" line="230"/>
+  </Constructor>
+  <Constructor id="_282" name="$_0" artificial="1" throw="" context="_7" access="public" mangled="_ZN9imaxdiv_tC1Ev *INTERNAL* " demangled="imaxdiv_t::imaxdiv_t()" location="f2:233" file="f2" line="233" inline="1"/>
+  <FundamentalType id="_283" name="bool" size="8" align="8"/>
+  <Field id="_284" name="x" type="_111" offset="0" context="_11" access="public" location="f4:146" file="f4" line="146"/>
+  <Field id="_285" name="y" type="_111" offset="32" context="_11" access="public" location="f4:147" file="f4" line="147"/>
+  <Field id="_286" name="w" type="_111" offset="64" context="_11" access="public" location="f4:148" file="f4" line="148"/>
+  <Field id="_287" name="h" type="_111" offset="96" context="_11" access="public" location="f4:149" file="f4" line="149"/>
+  <Destructor id="_288" name="vpx_image_rect" artificial="1" throw="" context="_11" access="public" mangled="_ZN14vpx_image_rectD1Ev *INTERNAL* " demangled="vpx_image_rect::~vpx_image_rect()" location="f4:145" file="f4" line="145" endline="145" inline="1">
+  </Destructor>
+  <OperatorMethod id="_289" name="=" returns="_397" artificial="1" throw="" context="_11" access="public" mangled="_ZN14vpx_image_rectaSERKS_" demangled="vpx_image_rect::operator=(vpx_image_rect const&amp;)" location="f4:145" file="f4" line="145" endline="145" inline="1">
+    <Argument type="_398" location="f4:145" file="f4" line="145"/>
+  </OperatorMethod>
+  <Constructor id="_290" name="vpx_image_rect" artificial="1" throw="" context="_11" access="public" mangled="_ZN14vpx_image_rectC1ERKS_ *INTERNAL* " demangled="vpx_image_rect::vpx_image_rect(vpx_image_rect const&amp;)" location="f4:145" file="f4" line="145" endline="145" inline="1">
+    <Argument type="_398" location="f4:145" file="f4" line="145"/>
+  </Constructor>
+  <Constructor id="_291" name="vpx_image_rect" artificial="1" throw="" context="_11" access="public" mangled="_ZN14vpx_image_rectC1Ev *INTERNAL* " demangled="vpx_image_rect::vpx_image_rect()" location="f4:145" file="f4" line="145" inline="1"/>
+  <FundamentalType id="_292" name="complex float" size="64" align="32"/>
+  <FundamentalType id="_293" name="complex long double" size="192" align="32"/>
+  <PointerType id="_294" type="_72" size="32" align="32"/>
+  <FundamentalType id="_295" name="void" align="8"/>
+  <PointerType id="_296" type="_78" size="32" align="32"/>
+  <PointerType id="_297" type="_170" size="32" align="32"/>
+  <FundamentalType id="_298" name="complex double" size="128" align="64"/>
+  <Field id="_299" name="id" type="_111" offset="0" context="_45" access="public" location="f1:481" file="f1" line="481"/>
+  <Field id="_300" name="sz" type="_399" offset="32" context="_45" access="public" location="f1:482" file="f1" line="482"/>
+  <Field id="_301" name="align" type="_111" offset="64" context="_45" access="public" location="f1:483" file="f1" line="483"/>
+  <Field id="_302" name="flags" type="_111" offset="96" context="_45" access="public" location="f1:484" file="f1" line="484"/>
+  <Field id="_303" name="base" type="_325" offset="128" context="_45" access="public" location="f1:490" file="f1" line="490"/>
+  <Field id="_304" name="dtor" type="_400" offset="160" context="_45" access="public" location="f1:491" file="f1" line="491"/>
+  <Field id="_305" name="priv" type="_325" offset="192" context="_45" access="public" location="f1:492" file="f1" line="492"/>
+  <Destructor id="_306" name="vpx_codec_mmap" artificial="1" throw="" context="_45" access="public" mangled="_ZN14vpx_codec_mmapD1Ev *INTERNAL* " demangled="vpx_codec_mmap::~vpx_codec_mmap()" location="f1:477" file="f1" line="477" endline="477" inline="1">
+  </Destructor>
+  <OperatorMethod id="_307" name="=" returns="_401" artificial="1" throw="" context="_45" access="public" mangled="_ZN14vpx_codec_mmapaSERKS_" demangled="vpx_codec_mmap::operator=(vpx_codec_mmap const&amp;)" location="f1:477" file="f1" line="477" endline="477" inline="1">
+    <Argument type="_402" location="f1:477" file="f1" line="477"/>
+  </OperatorMethod>
+  <Constructor id="_308" name="vpx_codec_mmap" artificial="1" throw="" context="_45" access="public" mangled="_ZN14vpx_codec_mmapC1ERKS_ *INTERNAL* " demangled="vpx_codec_mmap::vpx_codec_mmap(vpx_codec_mmap const&amp;)" location="f1:477" file="f1" line="477" endline="477" inline="1">
+    <Argument type="_402" location="f1:477" file="f1" line="477"/>
+  </Constructor>
+  <Constructor id="_309" name="vpx_codec_mmap" artificial="1" throw="" context="_45" access="public" mangled="_ZN14vpx_codec_mmapC1Ev *INTERNAL* " demangled="vpx_codec_mmap::vpx_codec_mmap()" location="f1:477" file="f1" line="477" inline="1"/>
+  <PointerType id="_310" type="_403" size="32" align="32"/>
+  <PointerType id="_311" type="_95" size="32" align="32"/>
+  <Field id="_313" name="name" type="_274" offset="0" context="_71" access="public" location="f1:195" file="f1" line="195"/>
+  <Field id="_314" name="iface" type="_345" offset="32" context="_71" access="public" location="f1:196" file="f1" line="196"/>
+  <Field id="_315" name="err" type="_247" offset="64" context="_71" access="public" location="f1:197" file="f1" line="197"/>
+  <Field id="_316" name="err_detail" type="_274" offset="96" context="_71" access="public" location="f1:198" file="f1" line="198"/>
+  <Field id="_317" name="init_flags" type="_75" offset="128" context="_71" access="public" location="f1:199" file="f1" line="199"/>
+  <Field id="_318" name="config" type="_320" offset="160" context="_71" access="public" location="f1:205" file="f1" line="205"/>
+  <Field id="_319" name="priv" type="_404" offset="192" context="_71" access="public" location="f1:206" file="f1" line="206"/>
+  <Union id="_320" context="_71" access="public" mangled="N13vpx_codec_ctx3$_2E" demangled="vpx_codec_ctx::$_2" location="f1:201" file="f1" line="201" artificial="1" size="32" align="32" members="_405 _406 _407 _408 _409 _410 _411 " bases=""/>
+  <Destructor id="_321" name="vpx_codec_ctx" artificial="1" throw="" context="_71" access="public" mangled="_ZN13vpx_codec_ctxD1Ev *INTERNAL* " demangled="vpx_codec_ctx::~vpx_codec_ctx()" location="f1:194" file="f1" line="194" endline="194" inline="1">
+  </Destructor>
+  <OperatorMethod id="_322" name="=" returns="_412" artificial="1" throw="" context="_71" access="public" mangled="_ZN13vpx_codec_ctxaSERKS_" demangled="vpx_codec_ctx::operator=(vpx_codec_ctx const&amp;)" location="f1:194" file="f1" line="194" endline="194" inline="1">
+    <Argument type="_413" location="f1:194" file="f1" line="194"/>
+  </OperatorMethod>
+  <Constructor id="_323" name="vpx_codec_ctx" artificial="1" throw="" context="_71" access="public" mangled="_ZN13vpx_codec_ctxC1ERKS_ *INTERNAL* " demangled="vpx_codec_ctx::vpx_codec_ctx(vpx_codec_ctx const&amp;)" location="f1:194" file="f1" line="194" endline="194" inline="1">
+    <Argument type="_413" location="f1:194" file="f1" line="194"/>
+  </Constructor>
+  <Constructor id="_324" name="vpx_codec_ctx" artificial="1" throw="" context="_71" access="public" mangled="_ZN13vpx_codec_ctxC1Ev *INTERNAL* " demangled="vpx_codec_ctx::vpx_codec_ctx()" location="f1:194" file="f1" line="194" inline="1"/>
+  <PointerType id="_325" type="_295" size="32" align="32"/>
+  <Field id="_326" name="fmt" type="_272" offset="0" context="_77" access="public" location="f4:99" file="f4" line="99"/>
+  <Field id="_327" name="w" type="_111" offset="32" context="_77" access="public" location="f4:102" file="f4" line="102"/>
+  <Field id="_328" name="h" type="_111" offset="64" context="_77" access="public" location="f4:103" file="f4" line="103"/>
+  <Field id="_329" name="d_w" type="_111" offset="96" context="_77" access="public" location="f4:106" file="f4" line="106"/>
+  <Field id="_330" name="d_h" type="_111" offset="128" context="_77" access="public" location="f4:107" file="f4" line="107"/>
+  <Field id="_331" name="x_chroma_shift" type="_111" offset="160" context="_77" access="public" location="f4:110" file="f4" line="110"/>
+  <Field id="_332" name="y_chroma_shift" type="_111" offset="192" context="_77" access="public" location="f4:111" file="f4" line="111"/>
+  <Field id="_333" name="planes" type="_414" offset="224" context="_77" access="public" location="f4:126" file="f4" line="126"/>
+  <Field id="_334" name="stride" type="_415" offset="352" context="_77" access="public" location="f4:127" file="f4" line="127"/>
+  <Field id="_335" name="bps" type="_48" offset="480" context="_77" access="public" location="f4:129" file="f4" line="129"/>
+  <Field id="_336" name="user_priv" type="_325" offset="512" context="_77" access="public" location="f4:134" file="f4" line="134"/>
+  <Field id="_337" name="img_data" type="_390" offset="544" context="_77" access="public" location="f4:138" file="f4" line="138"/>
+  <Field id="_338" name="img_data_owner" type="_48" offset="576" context="_77" access="public" location="f4:139" file="f4" line="139"/>
+  <Field id="_339" name="self_allocd" type="_48" offset="608" context="_77" access="public" location="f4:140" file="f4" line="140"/>
+  <Destructor id="_340" name="vpx_image" artificial="1" throw="" context="_77" access="public" mangled="_ZN9vpx_imageD1Ev *INTERNAL* " demangled="vpx_image::~vpx_image()" location="f4:98" file="f4" line="98" endline="98" inline="1">
+  </Destructor>
+  <OperatorMethod id="_341" name="=" returns="_416" artificial="1" throw="" context="_77" access="public" mangled="_ZN9vpx_imageaSERKS_" demangled="vpx_image::operator=(vpx_image const&amp;)" location="f4:98" file="f4" line="98" endline="98" inline="1">
+    <Argument type="_417" location="f4:98" file="f4" line="98"/>
+  </OperatorMethod>
+  <Constructor id="_342" name="vpx_image" artificial="1" throw="" context="_77" access="public" mangled="_ZN9vpx_imageC1ERKS_ *INTERNAL* " demangled="vpx_image::vpx_image(vpx_image const&amp;)" location="f4:98" file="f4" line="98" endline="98" inline="1">
+    <Argument type="_417" location="f4:98" file="f4" line="98"/>
+  </Constructor>
+  <Constructor id="_343" name="vpx_image" artificial="1" throw="" context="_77" access="public" mangled="_ZN9vpx_imageC1Ev *INTERNAL* " demangled="vpx_image::vpx_image()" location="f4:98" file="f4" line="98" inline="1"/>
+  <PointerType id="_344" type="_46" size="32" align="32"/>
+  <PointerType id="_345" type="_224" size="32" align="32"/>
+  <Field id="_346" name="post_proc_flag" type="_48" offset="0" context="_94" access="public" location="f6:81" file="f6" line="81"/>
+  <Field id="_347" name="deblocking_level" type="_48" offset="32" context="_94" access="public" location="f6:82" file="f6" line="82"/>
+  <Field id="_348" name="noise_level" type="_48" offset="64" context="_94" access="public" location="f6:83" file="f6" line="83"/>
+  <Destructor id="_349" name="vp8_postproc_cfg" artificial="1" throw="" context="_94" access="public" mangled="_ZN16vp8_postproc_cfgD1Ev *INTERNAL* " demangled="vp8_postproc_cfg::~vp8_postproc_cfg()" location="f6:80" file="f6" line="80" endline="80" inline="1">
+  </Destructor>
+  <OperatorMethod id="_350" name="=" returns="_418" artificial="1" throw="" context="_94" access="public" mangled="_ZN16vp8_postproc_cfgaSERKS_" demangled="vp8_postproc_cfg::operator=(vp8_postproc_cfg const&amp;)" location="f6:80" file="f6" line="80" endline="80" inline="1">
+    <Argument type="_419" location="f6:80" file="f6" line="80"/>
+  </OperatorMethod>
+  <Constructor id="_351" name="vp8_postproc_cfg" artificial="1" throw="" context="_94" access="public" mangled="_ZN16vp8_postproc_cfgC1ERKS_ *INTERNAL* " demangled="vp8_postproc_cfg::vp8_postproc_cfg(vp8_postproc_cfg const&amp;)" location="f6:80" file="f6" line="80" endline="80" inline="1">
+    <Argument type="_419" location="f6:80" file="f6" line="80"/>
+  </Constructor>
+  <Constructor id="_352" name="vp8_postproc_cfg" artificial="1" throw="" context="_94" access="public" mangled="_ZN16vp8_postproc_cfgC1Ev *INTERNAL* " demangled="vp8_postproc_cfg::vp8_postproc_cfg()" location="f6:80" file="f6" line="80" inline="1"/>
+  <Field id="_353" name="roi_map" type="_390" offset="0" context="_102" access="public" location="f5:204" file="f5" line="204"/>
+  <Field id="_354" name="rows" type="_111" offset="32" context="_102" access="public" location="f5:205" file="f5" line="205"/>
+  <Field id="_355" name="cols" type="_111" offset="64" context="_102" access="public" location="f5:206" file="f5" line="206"/>
+  <Field id="_356" name="delta_q" type="_415" offset="96" context="_102" access="public" location="f5:207" file="f5" line="207"/>
+  <Field id="_357" name="delta_lf" type="_415" offset="224" context="_102" access="public" location="f5:208" file="f5" line="208"/>
+  <Field id="_358" name="static_threshold" type="_420" offset="352" context="_102" access="public" location="f5:209" file="f5" line="209"/>
+  <Destructor id="_359" name="vpx_roi_map" artificial="1" throw="" context="_102" access="public" mangled="_ZN11vpx_roi_mapD1Ev *INTERNAL* " demangled="vpx_roi_map::~vpx_roi_map()" location="f5:203" file="f5" line="203" endline="203" inline="1">
+  </Destructor>
+  <OperatorMethod id="_360" name="=" returns="_421" artificial="1" throw="" context="_102" access="public" mangled="_ZN11vpx_roi_mapaSERKS_" demangled="vpx_roi_map::operator=(vpx_roi_map const&amp;)" location="f5:203" file="f5" line="203" endline="203" inline="1">
+    <Argument type="_422" location="f5:203" file="f5" line="203"/>
+  </OperatorMethod>
+  <Constructor id="_361" name="vpx_roi_map" artificial="1" throw="" context="_102" access="public" mangled="_ZN11vpx_roi_mapC1ERKS_ *INTERNAL* " demangled="vpx_roi_map::vpx_roi_map(vpx_roi_map const&amp;)" location="f5:203" file="f5" line="203" endline="203" inline="1">
+    <Argument type="_422" location="f5:203" file="f5" line="203"/>
+  </Constructor>
+  <Constructor id="_362" name="vpx_roi_map" artificial="1" throw="" context="_102" access="public" mangled="_ZN11vpx_roi_mapC1Ev *INTERNAL* " demangled="vpx_roi_map::vpx_roi_map()" location="f5:203" file="f5" line="203" inline="1"/>
+  <PointerType id="_363" type="_48" size="32" align="32"/>
+  <Field id="_364" name="frame_type" type="_198" offset="0" context="_110" access="public" location="f6:104" file="f6" line="104"/>
+  <Field id="_365" name="img" type="_78" offset="32" context="_110" access="public" location="f6:105" file="f6" line="105"/>
+  <Destructor id="_366" name="vpx_ref_frame" artificial="1" throw="" context="_110" access="public" mangled="_ZN13vpx_ref_frameD1Ev *INTERNAL* " demangled="vpx_ref_frame::~vpx_ref_frame()" location="f6:103" file="f6" line="103" endline="103" inline="1">
+  </Destructor>
+  <OperatorMethod id="_367" name="=" returns="_423" artificial="1" throw="" context="_110" access="public" mangled="_ZN13vpx_ref_frameaSERKS_" demangled="vpx_ref_frame::operator=(vpx_ref_frame const&amp;)" location="f6:103" file="f6" line="103" endline="103" inline="1">
+    <Argument type="_424" location="f6:103" file="f6" line="103"/>
+  </OperatorMethod>
+  <Constructor id="_368" name="vpx_ref_frame" artificial="1" throw="" context="_110" access="public" mangled="_ZN13vpx_ref_frameC1ERKS_ *INTERNAL* " demangled="vpx_ref_frame::vpx_ref_frame(vpx_ref_frame const&amp;)" location="f6:103" file="f6" line="103" endline="103" inline="1">
+    <Argument type="_424" location="f6:103" file="f6" line="103"/>
+  </Constructor>
+  <Constructor id="_369" name="vpx_ref_frame" artificial="1" throw="" context="_110" access="public" mangled="_ZN13vpx_ref_frameC1Ev *INTERNAL* " demangled="vpx_ref_frame::vpx_ref_frame()" location="f6:103" file="f6" line="103" inline="1"/>
+  <PointerType id="_370" type="_275" size="32" align="32"/>
+  <PointerType id="_371" type="_276" size="32" align="32"/>
+  <PointerType id="_372" type="_201" size="32" align="32"/>
+  <PointerType id="_373" type="_425c" size="32" align="32"/>
+  <PointerType id="_374" type="_427" size="32" align="32"/>
+  <PointerType id="_375" type="_66" size="32" align="32"/>
+  <Field id="_376" name="h_scaling_mode" type="_99" offset="0" context="_169" access="public" location="f5:233" file="f5" line="233"/>
+  <Field id="_377" name="v_scaling_mode" type="_99" offset="32" context="_169" access="public" location="f5:234" file="f5" line="234"/>
+  <Destructor id="_378" name="vpx_scaling_mode" artificial="1" throw="" context="_169" access="public" mangled="_ZN16vpx_scaling_modeD1Ev *INTERNAL* " demangled="vpx_scaling_mode::~vpx_scaling_mode()" location="f5:232" file="f5" line="232" endline="232" inline="1">
+  </Destructor>
+  <OperatorMethod id="_379" name="=" returns="_428" artificial="1" throw="" context="_169" access="public" mangled="_ZN16vpx_scaling_modeaSERKS_" demangled="vpx_scaling_mode::operator=(vpx_scaling_mode const&amp;)" location="f5:232" file="f5" line="232" endline="232" inline="1">
+    <Argument type="_429" location="f5:232" file="f5" line="232"/>
+  </OperatorMethod>
+  <Constructor id="_380" name="vpx_scaling_mode" artificial="1" throw="" context="_169" access="public" mangled="_ZN16vpx_scaling_modeC1ERKS_ *INTERNAL* " demangled="vpx_scaling_mode::vpx_scaling_mode(vpx_scaling_mode const&amp;)" location="f5:232" file="f5" line="232" endline="232" inline="1">
+    <Argument type="_429" location="f5:232" file="f5" line="232"/>
+  </Constructor>
+  <Constructor id="_381" name="vpx_scaling_mode" artificial="1" throw="" context="_169" access="public" mangled="_ZN16vpx_scaling_modeC1Ev *INTERNAL* " demangled="vpx_scaling_mode::vpx_scaling_mode()" location="f5:232" file="f5" line="232" inline="1"/>
+  <PointerType id="_382" type="_103" size="32" align="32"/>
+  <Field id="_383" name="active_map" type="_390" offset="0" context="_192" access="public" location="f5:221" file="f5" line="221"/>
+  <Field id="_384" name="rows" type="_111" offset="32" context="_192" access="public" location="f5:222" file="f5" line="222"/>
+  <Field id="_385" name="cols" type="_111" offset="64" context="_192" access="public" location="f5:223" file="f5" line="223"/>
+  <Destructor id="_386" name="vpx_active_map" artificial="1" throw="" context="_192" access="public" mangled="_ZN14vpx_active_mapD1Ev *INTERNAL* " demangled="vpx_active_map::~vpx_active_map()" location="f5:220" file="f5" line="220" endline="220" inline="1">
+  </Destructor>
+  <OperatorMethod id="_387" name="=" returns="_430" artificial="1" throw="" context="_192" access="public" mangled="_ZN14vpx_active_mapaSERKS_" demangled="vpx_active_map::operator=(vpx_active_map const&amp;)" location="f5:220" file="f5" line="220" endline="220" inline="1">
+    <Argument type="_431" location="f5:220" file="f5" line="220"/>
+  </OperatorMethod>
+  <Constructor id="_388" name="vpx_active_map" artificial="1" throw="" context="_192" access="public" mangled="_ZN14vpx_active_mapC1ERKS_ *INTERNAL* " demangled="vpx_active_map::vpx_active_map(vpx_active_map const&amp;)" location="f5:220" file="f5" line="220" endline="220" inline="1">
+    <Argument type="_431" location="f5:220" file="f5" line="220"/>
+  </Constructor>
+  <Constructor id="_389" name="vpx_active_map" artificial="1" throw="" context="_192" access="public" mangled="_ZN14vpx_active_mapC1Ev *INTERNAL* " demangled="vpx_active_map::vpx_active_map()" location="f5:220" file="f5" line="220" inline="1"/>
+  <PointerType id="_390" type="_216" size="32" align="32"/>
+  <CvQualifiedType id="_138c" type="_138" const="1"/>
+  <PointerType id="_392" type="_193" size="32" align="32"/>
+  <ReferenceType id="_395" type="_7" size="32" align="32"/>
+  <ReferenceType id="_396" type="_7c" size="32" align="32"/>
+  <ReferenceType id="_397" type="_11" size="32" align="32"/>
+  <ReferenceType id="_398" type="_11c" size="32" align="32"/>
+  <FundamentalType id="_399" name="long unsigned int" size="32" align="32"/>
+  <PointerType id="_400" type="_434" size="32" align="32"/>
+  <ReferenceType id="_401" type="_45" size="32" align="32"/>
+  <ReferenceType id="_402" type="_45c" size="32" align="32"/>
+  <PointerType id="_404" type="_164" size="32" align="32"/>
+  <Field id="_405" name="dec" type="_436" offset="0" context="_320" access="public" location="f1:202" file="f1" line="202"/>
+  <Field id="_406" name="enc" type="_437" offset="0" context="_320" access="public" location="f1:203" file="f1" line="203"/>
+  <Field id="_407" name="raw" type="_325" offset="0" context="_320" access="public" location="f1:204" file="f1" line="204"/>
+  <Destructor id="_408" name="$_2" artificial="1" throw="" context="_320" access="public" mangled="_ZN13vpx_codec_ctx3$_2D1Ev *INTERNAL* " demangled="vpx_codec_ctx::$_2::~$_2()" location="f1:201" file="f1" line="201" endline="201" inline="1">
+  </Destructor>
+  <OperatorMethod id="_409" name="=" returns="_438" artificial="1" throw="" context="_320" access="public" mangled="_ZN13vpx_codec_ctx3$_2aSERKS0_" demangled="vpx_codec_ctx::$_2::operator=(vpx_codec_ctx::$_2 const&amp;)" location="f1:201" file="f1" line="201" endline="201" inline="1">
+    <Argument type="_439" location="f1:201" file="f1" line="201"/>
+  </OperatorMethod>
+  <Constructor id="_410" name="vpx_codec_ctx" artificial="1" throw="" context="_320" access="public" mangled="_ZN13vpx_codec_ctx3$_2C1ERKS0_ *INTERNAL* " demangled="vpx_codec_ctx::$_2::$_2(vpx_codec_ctx::$_2 const&amp;)" location="f1:201" file="f1" line="201" endline="201" inline="1">
+    <Argument type="_439" location="f1:201" file="f1" line="201"/>
+  </Constructor>
+  <Constructor id="_411" name="vpx_codec_ctx" artificial="1" throw="" context="_320" access="public" mangled="_ZN13vpx_codec_ctx3$_2C1Ev *INTERNAL* " demangled="vpx_codec_ctx::$_2::$_2()" location="f1:201" file="f1" line="201" inline="1"/>
+  <ReferenceType id="_412" type="_71" size="32" align="32"/>
+  <ReferenceType id="_413" type="_71c" size="32" align="32"/>
+  <ArrayType id="_414" min="0" max="3u" type="_390" size="128" align="32"/>
+  <ArrayType id="_415" min="0" max="3u" type="_48" size="128" align="32"/>
+  <ReferenceType id="_416" type="_77" size="32" align="32"/>
+  <ReferenceType id="_417" type="_77c" size="32" align="32"/>
+  <ReferenceType id="_418" type="_94" size="32" align="32"/>
+  <ReferenceType id="_419" type="_94c" size="32" align="32"/>
+  <ArrayType id="_420" min="0" max="3u" type="_111" size="128" align="32"/>
+  <ReferenceType id="_421" type="_102" size="32" align="32"/>
+  <ReferenceType id="_422" type="_102c" size="32" align="32"/>
+  <ReferenceType id="_423" type="_110" size="32" align="32"/>
+  <ReferenceType id="_424" type="_110c" size="32" align="32"/>
+  <ReferenceType id="_428" type="_169" size="32" align="32"/>
+  <ReferenceType id="_429" type="_169c" size="32" align="32"/>
+  <ReferenceType id="_430" type="_192" size="32" align="32"/>
+  <ReferenceType id="_431" type="_192c" size="32" align="32"/>
+  <PointerType id="_436" type="_70" size="32" align="32"/>
+  <PointerType id="_437" type="_162" size="32" align="32"/>
+  <ReferenceType id="_438" type="_320" size="32" align="32"/>
+  <ReferenceType id="_439" type="_320c" size="32" align="32"/>
+  <CvQualifiedType id="_295c" type="_295" const="1"/>
+  <CvQualifiedType id="_77c" type="_77" const="1"/>
+  <CvQualifiedType id="_11c" type="_11" const="1"/>
+  <CvQualifiedType id="_7c" type="_7" const="1"/>
+  <CvQualifiedType id="_425c" type="_425" const="1"/>
+  <CvQualifiedType id="_320c" type="_320" const="1"/>
+  <CvQualifiedType id="_71c" type="_71" const="1"/>
+  <FunctionType id="_434" returns="_295">
+    <Argument type="_448"/>
+  </FunctionType>
+  <CvQualifiedType id="_45c" type="_45" const="1"/>
+  <CvQualifiedType id="_94c" type="_94" const="1"/>
+  <CvQualifiedType id="_110c" type="_110" const="1"/>
+  <CvQualifiedType id="_102c" type="_102" const="1"/>
+  <CvQualifiedType id="_192c" type="_192" const="1"/>
+  <CvQualifiedType id="_169c" type="_169" const="1"/>
+  <FundamentalType id="_393" name="char" size="8" align="8"/>
+  <PointerType id="_403" type="_393" size="32" align="32"/>
+  <CvQualifiedType id="_393c" type="_393" const="1"/>
+  <FundamentalType id="_425" name="wchar_t" size="16" align="16"/>
+  <PointerType id="_427" type="_425" size="32" align="32"/>
+  <PointerType id="_448" type="_45" size="32" align="32"/>
+  <File id="f0" name="/usr/local/share/gccxml-0.9/GCC/4.5/gccxml_builtins.h"/>
+  <File id="f1" name="../vpxmt/include/vpx/vpx_codec.h"/>
+  <File id="f2" name="/usr/include/inttypes.h"/>
+  <File id="f3" name="/usr/include/stdint.h"/>
+  <File id="f4" name="../vpxmt/include/vpx/vpx_image.h"/>
+  <File id="f5" name="../vpxmt/include/vpx/vp8cx.h"/>
+  <File id="f6" name="../vpxmt/include/vpx/vp8.h"/>
+  <File id="f7" name="/usr/lib/gcc/i686-pc-cygwin/4.5.3/include/stddef.h"/>
+</GCC_XML>
