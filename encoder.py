@@ -86,7 +86,7 @@ def encoder_main(width, height, infile_name, outfile_name):
         outfile = open(outfile_name, "wb")
     except:
         die("Failed to open %s for writing" % (outfile_name,))
-    raw_ptr = cast(raw, vpxmt.LP_vpx_image_t)
+    
     print ("Using %s\n" % (cast(vpxmt.vpx_codec_iface_name(vpx_codec_vp8_cx()), c_char_p).value,))
     
     cfg_ptr = cast(pointer(cfg), LP_vpx_codec_enc_cfg_t)
@@ -125,8 +125,8 @@ def encoder_main(width, height, infile_name, outfile_name):
         iter_data = vpx_codec_iter_t()
         iter_data_ptr = pointer(iter_data)
         
-        frame_avail = read_frame(infile, raw_ptr)
-        encoded = vpx_codec_encode(codec_ptr, raw_ptr if frame_avail else None, frame_cnt, 1, flags, VPX_DL_REALTIME)
+        frame_avail = read_frame(infile, raw)
+        encoded = vpx_codec_encode(codec_ptr, raw if frame_avail else None, frame_cnt, 1, flags, VPX_DL_REALTIME)
         if(encoded != 0):
             die_codec(codec, "Failed to encode frame")
         got_data = False
